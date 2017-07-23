@@ -1,0 +1,971 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spawns>
+	<Spawn name="Bulbasaur" starter="true" overwrite="true" rate="0.05" min="1" max="2" biomes="Origin_Island"/>
+	<Spawn name="Bulbasaur" rate="0.1" min="1" max="2" biomes="cherry_blossom_grove"/>
+	<Spawn name="Bulbasaur" rate="0.11" min="1" max="2" biomes="orchard"/>
+	<Spawn name="Ivyasaur" overwrite="true" rate="0.01" min="1" max="2" biomes="orchard"/>
+	<Spawn name="Ivyasaur" rate="0.07" min="1" max="2" biomes="cherry_blossom_grove"/>
+	<Spawn name="Venusaur" overwrite="true" rate="0.01" min="1" max="2" biomes="cherry_blossom_grove"/>
+	<Spawn name="Venusaur Mega" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Charmander" starter="true" overwrite="true" rate="0.05" min="1" max="2" biomes="origin_island"/>
+	<Spawn name="Charmander" rate="0.1" min="1" max="2" biomes="volcanic_island"/>
+	<Spawn name="Charmander" rate="0.15" min="1" max="2" biomes="Phantasmagoric_Inferno"/>
+	<Spawn name="Charmeleon" overwrite="true" rate="0.1" min="1" max="2" biomes="phantasmagoric_inferno"/>
+	<Spawn name="Charmeleon" rate="0.2" min="1" max="2" biomes="volcanic_island"/>
+	<Spawn name="Charizard" overwrite="true" rate="0.05" min="1" max="2" biomes="phantasmagoric_inferno"/>
+	<Spawn name="Charizard Mega-X" overwrite="true" rate="0.01" min="1" max="2" biomes="forest"/>
+	<Spawn name="Charizard Mega-Y" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Squirtle" starter="true" overwrite="true" rate="0.05" min="1" max="2" water="true" biomes="origin_island"/>
+	<Spawn name="Squirtle" rate="0.1" min="1" max="2" biomes="white_beach"/>
+	<Spawn name="Squirtle" rate="0.05" min="1" max="2" biomes="lush_swamp"/>
+	<Spawn name="Wartortle" overwrite="true" rate="0.01" min="1" max="2" biomes="lush_swamp"/>
+	<Spawn name="Wartortle" rate="0.01" min="1" max="2" biomes="white_beach"/>
+	<Spawn name="Blastoise" overwrite="true" rate="0.005" min="1" max="2" biomes="lush_swamp"/>
+	<Spawn name="Blastoise Mega" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Caterpie" overwrite="true" rate="0.01" min="1" max="2" biomes="bamboo_forest"/>
+	<Spawn name="Caterpie" rate="0.39" min="1" max="8" biomes="boreal_forest"/>
+	<Spawn name="Caterpie" rate="0.3" min="1" max="4" biomes="maple_Wwoods"/>
+	<Spawn name="Caterpie" rate="0.35" min="1" max="8" biomes="cherry_blossom_Ggrove"/>
+	<Spawn name="Metapod" overwrite="true" rate="0.3" min="1" max="4" biomes="cherry_blossom_grove"/>
+	<Spawn name="Metapod" rate="0.4" min="1" max="6" biomes="boreal_forest"/>
+	<Spawn name="Butterfree" overwrite="true" rate="0.5" min="1" max="10" biomes="cherry_blossom_grove"/>
+	<Spawn name="Weedle" overwrite="true" rate="0.39" min="1" max="8" biomes="mangrove,dead_swamp"/>
+	<Spawn name="Weedle" rate="0.2" min="1" max="8" biomes="lavender_fields"/>
+	<Spawn name="Kakuna" overwrite="true" rate="0.29" min="1" max="6" biomes="mangrove"/>
+	<Spawn name="Beedrill" overwrite="true" rate="0.2" min="1" max="4" biomes="mangrove,dead_swamp"/>
+	<Spawn name="Beedrill" rate="0.35" min="1" max="6" biomes="lavender_fields"/>
+	<Spawn name="Beedrill Mega" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Pidgey" overwrite="true" rate="0.4" min="1" max="8" biomes="grassland,brushland"/>
+	<Spawn name="Pidgeotto" overwrite="true" rate="0.2" min="1" max="3" biomes="grassland,brushland"/>
+	<Spawn name="Pidgeot" overwrite="true" rate="0.05" min="1" max="2" biomes="grassland,brushland"/>
+	<Spawn name="Pidgeot Mega" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Rattata" overwrite="true" rate="0.4" min="1" max="6" biomes="grassland,brushland"/>
+	<Spawn name="Rattata Alola" overwrite="true" rate="0.01" min="1" max="2" biomes="dead_swamp,boreal_forest"/>
+	<Spawn name="Raticate" overwrite="true" rate="0.06" min="1" max="2" biomes="grassland,brushland"/>
+	<Spawn name="Raticate Alola" overwrite="true" rate="0.1" min="1" max="4" biomes="dead_swamp,wWasteland"/>
+	<Spawn name="Spearow" overwrite="true" rate="0.2" min="1" max="2" biomes="dead_swamp,boreal_forest"/>
+	<Spawn name="Fearow" overwrite="true" rate="0.15" min="1" max="2" biomes="dead_swamp"/>
+	<Spawn name="Ekans" overwrite="true" rate="0.01" min="1" max="2" biomes="wasteland"/>
+	<Spawn name="Arbok" overwrite="true" rate="0.01" min="1" max="2" biomes="wasteland"/>
+	<Spawn name="Pikachu" starter="true" overwrite="true" rate="0.1" min="1" max="2" biomes="origin_island"/>
+	<Spawn name="Raichu" overwrite="true" rate="0.04" min="1" max="2" biomes="shrubland"/>
+	<Spawn name="Raichu Alola" overwrite="true" rate="0.01" min="1" max="2" biomes="shrubland"/>
+	<Spawn name="Sandshrew" overwrite="true" rate="0.1" min="1" max="4" biomes="outback,savanna"/>
+	<Spawn name="Sandshrew Alola" overwrite="true" rate="0.1" min="1" max="2" biomes="tundra,alps"/>
+	<Spawn name="Sandslash" overwrite="true" rate="0.03" min="1" max="2" biomes="outback,savanna"/>
+	<Spawn name="Sandslash Alola" overwrite="true" rate="0.=03" min="1" max="2" biomes="tundra,alps"/>
+	<Spawn name="NidoranF" overwrite="true" rate="0.2" min="1" max="2" biomes="chaparral,highland"/>
+	<Spawn name="Nidorina" overwrite="true" rate="0.05" min="1" max="2" biomes="highland"/>
+	<Spawn name="Nidoqueen" overwrite="true" rate="0.01" min="1" max="2" biomes="crag"/>
+	<Spawn name="NidoranM" overwrite="true" rate="0.02" min="1" max="2" biomes="chaparral,highland"/>
+	<Spawn name="Nidorino" overwrite="true" rate="0.05" min="1" max="2" biomes="highland"/>
+	<Spawn name="Nidoking" overwrite="true" rate="0.01" min="1" max="2" biomes="crag"/>
+	<Spawn name="Clefairy" rate="0.15" min="1" max="8" biomes="mystic_grove"/>
+	<Spawn name="Clefable" rate="0.05" min="1" max="2" biomes="mystic_grove"/>
+	<Spawn name="Vulpix" overwrite="true" rate="0.1" min="1" max="3" biomes="volcanic_island"/>
+	<Spawn name="Vulpix Alola" overwrite="true" rate="0.1" min="1" max="4" biomes="arctic"/>
+	<Spawn name="Ninetales" overwrite="true" rate="0.05" min="1" max="2" biomes="volcanic_island"/>
+	<Spawn name="Ninetales Alola" overwrite="true" rate="0.05" min="1" max="2" biomes="Aarctic"/>
+	<Spawn name="Jigglypuff" rate="0.15" min="1" max="8" biomes="Mmystic_grove"/>
+	<Spawn name="Wigglytuff" rate="0.05" min="1" max="2" biomes="Mmystic_grove"/>
+	<Spawn name="Zubat" overwrite="true" rate="0.15" min="1" max="2" biomes="dead_swamp,dead_forest"/>
+	<Spawn name="Golbat" overwrite="true" rate="0.03" min="1" max="2" biomes="dead_swamp,dead_forest"/>
+	<Spawn name="Oddish" overwrite="true" rate="0.17" min="1" max="2" biomes="meadow"/>
+	<Spawn name="Gloom" overwrite="true" rate="0.04" min="1" max="2" biomes="meadow"/>
+	<Spawn name="Vileplume" overwrite="true" rate="0.01" min="1" max="2" biomes="meadow"/>
+	<Spawn name="Paras" overwrite="true" rate="0.2" min="1" max="5" biomes="quagmire,gravel_beach"/>
+	<Spawn name="Parasect" overwrite="true" rate="0.05" min="1" max="2" biomes="quagmire,gravel_beach"/>
+	<Spawn name="Venonat" overwrite="true" rate="0.2" min="1" max="2" biomes="ominous_woods"/>
+	<Spawn name="Venomoth" overwrite="true" rate="0.06" min="1" max="2" biomes="ominous_woods"/>
+	<Spawn name="Diglett" rate="0.2" min="1" max="2" biomes="wasteland"/>
+	<Spawn name="Diglett Alola" rate="0.01" min="1" max="2" biomes="wasteland"/>
+	<Spawn name="Dugtrio" rate="0.01" min="1" max="2" biomes="wasteland"/>
+	<Spawn name="Dugtrio Alola" rate="0.01" min="1" max="2" biomes="wasteland"/>
+	<Spawn name="Meowth" overwrite="true" rate="0.1" min="1" max="2" biomes="xeric_shrubland,desert"/>
+	<Spawn name="Meowth Alola" overwrite="true" rate="0.1" min="1" max="2" biomes="mystic_grove"/>
+	<Spawn name="Persian" overwrite="true" rate="0.03" min="1" max="2" biomes="xeric_shrubland,desert"/>
+	<Spawn name="Persian Alola" overwrite="true" rate="0.02" min="1" max="2" biomes="mystic_grove"/>
+	<Spawn name="Psyduck" overwrite="true" rate="0.18" min="1" max="2" water="true" biomes="marsh,quagmire,lush_swamp,swampland"/>
+	<Spawn name="Golduck" overwrite="true" rate="0.05" min="1" max="2" biomes="marsh,quagmire"/>
+	<Spawn name="Mankey" overwrite="true" rate="0.18" min="1" max="6" biomes="outback,savanna"/>
+	<Spawn name="Primeape" overwrite="true" rate="0.01" min="1" max="4" biomes="outback,savanna"/>
+	<Spawn name="Growlithe" overwrite="true" rate="0.11" min="1" max="6" biomes="volcanic_island,outback"/>
+	<Spawn name="Arcanine" overwrite="true" rate="0.01" min="1" max="2" biomes="volcanic_island,outback"/>
+	<Spawn name="Poliwag" overwrite="true" rate="0.2" min="1" max="6" water="true" biomes="marsh,wetlands,swampland"/>
+	<Spawn name="Poliwhirl" overwrite="true" rate="0.07" min="1" max="2" biomes="marsh,wetlands"/>
+	<Spawn name="Poliwrath" overwrite="true" rate="0.01" min="1" max="2" biomes="marsh"/>
+	<Spawn name="Abra" overwrite="true" rate="0.08" min="1" max="6" biomes="ominous_woods,mystic_grove"/>
+	<Spawn name="Kadabra" overwrite="true" rate="0.01" min="1" max="2" biomes="mystic_grove"/>
+	<Spawn name="Alakazam" overwrite="true" rate="0.005" min="1" max="2" biomes="hell"/>
+	<Spawn name="Alakazam Mega" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Machop" overwrite="true" rate="0.15" min="1" max="6" biomes="crag,mesa"/>
+	<Spawn name="Machoke" overwrite="true" rate="0.04" min="1" max="2" biomes="crag,mesa"/>
+	<Spawn name="Machamp" overwrite="true" rate="0.005" min="1" max="2" biomes="mesa"/>
+	<Spawn name="Bellsprout" overwrite="true" rate="0.21" min="1" max="8" biomes="meadow,orchard"/>
+	<Spawn name="Weepinbell" overwrite="true" rate="0.05" min="1" max="6" biomes="meadow,orchard,flower_island"/>
+	<Spawn name="Victreebel" overwrite="true" rate="0.005" min="1" max="2" biomes="orchard,flower_island"/>
+	<Spawn name="Tentacool" overwrite="true" rate="0.1" min="1" max="8" water="true" biomes="ocean,coral_reef,kelp_forest"/>
+	<Spawn name="Tentacruel" overwrite="true" rate="0.01" min="1" max="4" water="true" biomes="coral_reef,ocean"/>
+	<Spawn name="Geodude" overwrite="true" rate="0.1" min="1" max="2" biomes="extreme_hills"/>
+	<Spawn name="Geodude Alola" overwrite="true" rate="0.01" min="1" max="2" biomes="highland"/>
+	<Spawn name="Graveler" overwrite="true" rate="0.01" min="1" max="2" biomes="extreme_hills"/>
+	<Spawn name="Graveler Alola" overwrite="true" rate="0.01" min="1" max="2" biomes="highland"/>
+	<Spawn name="Golem" overwrite="true" rate="0.01" min="1" max="2" biomes="alps,desert_hills"/>
+	<Spawn name="Golem Alola" overwrite="true" rate="0.03" min="1" max="2" biomes="alps"/>
+	<Spawn name="Ponyta" overwrite="true" rate="0.11" min="1" max="6" biomes="savanna,outback"/>
+	<Spawn name="Rapidash" overwrite="true" rate="0.01" min="1" max="6" biomes="outback,desert_hills"/>
+	<Spawn name="Slowpoke" overwrite="true" rate="0.16" min="1" max="4" water="true" biomes="bayou,gravel_beach"/>
+	<Spawn name="Slowbro" overwrite="true" rate="0.005" min="1" max="2" biomes="bayou,gravel_beach"/>
+	<Spawn name="Slowbro Mega" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Magnemite" overwrite="true" rate="0.09" min="1" max="2" biomes="crag,alps"/>
+	<Spawn name="Magneton" overwrite="true" rate="0.01" min="1" max="2" biomes="sky"/>
+	<Spawn name="Farfetch'd" overwrite="true" rate="0.005" min="1" max="2" biomes="swampland"/>
+	<Spawn name="Doduo" overwrite="true" rate="0.2" min="1" max="10" biomes="savanna,outback"/>
+	<Spawn name="Dodrio" overwrite="true" rate="0.1" min="1" max="8" biomes="outback"/>
+	<Spawn name="Seel" overwrite="true" rate="0.27" min="1" max="6" water="true" biomes="glacier,arctic"/>
+	<Spawn name="Dewgong" overwrite="true" rate="0.07" min="1" max="2" biomes="glacier"/>
+	<Spawn name="Grimer" overwrite="true" rate="0.2" min="1" max="5" biomes="visceral_heap,bog,dead_swamp,ominous_woods,mystic_grove"/>
+	<Spawn name="Grimer Alola" overwrite="true" rate="0.1" min="1" max="2" biomes="mystic_grove,dead_swamp"/>
+	<Spawn name="Muk" overwrite="true" rate="0.01" min="1" max="2" biomes="wasteland,dead_swamp"/>
+	<Spawn name="Muk Alola" overwrite="true" rate="0.01" min="1" max="2" biomes="wasteland,visceral_heap"/>
+	<Spawn name="Shellder" overwrite="true" rate="0.18" min="1" max="2" water="true" biomes="ocean,coral_reef"/>
+	<Spawn name="Cloyster" overwrite="true" rate="0.09" min="1" max="2" water="true" biomes="coral_reef"/>
+	<Spawn name="Gastly" overwrite="true" rate="0.19" min="1" max="7" biomes="dead_forest,wasteland"/>
+	<Spawn name="Haunter" overwrite="true" rate="0.07" min="1" max="13" biomes="dead_forest,visceral_heap"/>
+	<Spawn name="Gengar" overwrite="true" rate="0.005" min="1" max="2" biomes="visceral_heap"/>
+	<Spawn name="Gengar Mega" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Onix" overwrite="true" rate="0.1" min="1" max="3" biomes="crag"/>
+	<Spawn name="Drowzee" overwrite="true" rate="0.08" min="1" max="2" biomes="dead_forest,fen"/>
+	<Spawn name="Hypno" overwrite="true" rate="0.004" min="1" max="2" biomes="fen,hell"/>
+	<Spawn name="Krabby" overwrite="true" rate="0.14" min="1" max="8" water="true" biomes="gravel_beach,white_beach,tropical_island"/>
+	<Spawn name="Kingler" overwrite="true" rate="0.04" min="1" max="2" biomes="ocean,gravel_beach"/>
+	<Spawn name="Voltorb" overwrite="true" rate="0.08" min="1" max="2" biomes="steppe"/>
+	<Spawn name="Electrode" overwrite="true" rate="0.003" min="1" max="2" biomes="steppe,mesa"/>
+	<Spawn name="Exeggcute" overwrite="true" rate="0.07" min="1" max="4" biomes="tropical_island,shrubland"/>
+	<Spawn name="Exeggutor" overwrite="true" rate="0.02" min="1" max="2" biomes="wetland,shrubland,tropical_rainforest"/>
+	<Spawn name="Exeggutor Alola" overwrite="true" rate="0.03" min="2" max="8" biomes="tropical_island,Tropical_rainforest,gravel_beach,white_beach"/>
+	<Spawn name="Cubone" overwrite="true" rate="0.01" min="1" max="2" biomes="savannah"/>
+	<Spawn name="Marowak" overwrite="true" rate="0.01" min="1" max="2" biomes="savannah"/>
+	<Spawn name="Marowak Alola" overwrite="true" rate="0.01" min="1" max="2" biomes="hell,dead_forest,phantasmagoric_inferno,corrupted_sands"/>
+	<Spawn name="Hitmonlee" overwrite="true" rate="0.01" min="1" max="2" biomes="highland"/>
+	<Spawn name="Hitmonchan" overwrite="true" rate="0.01" min="1" max="2" biomes="highland"/>
+	<Spawn name="Lickitung" overwrite="true" rate="0.01" min="1" max="2" biomes="flower_island"/>
+	<Spawn name="Koffing" overwrite="true" rate="0.2" min="1" max="2" biomes="visceral_heap,wasteland,dead_swamp,volcanic_island"/>
+	<Spawn name="Weezing" overwrite="true" rate="0.1" min="1" max="2" biomes="visceral_heap,wasteland"/>
+	<Spawn name="Rhyhorn" overwrite="true" rate="0.13" min="1" max="5" biomes="mountain,mountain_foothils"/>
+	<Spawn name="Rhydon" overwrite="true" rate="0.06" min="1" max="2" biomes="mountain"/>
+	<Spawn name="Chansey" overwrite="true" rate="0.005" min="1" max="2" biomes="mystic_grove"/>
+	<Spawn name="Tangela" overwrite="true" rate="0.18" min="1" max="12" biomes="rainforest,lush_swamp"/>
+	<Spawn name="Kangaskhan" overwrite="true" rate="0.003" min="1" max="2" biomes="outback,savanna"/>
+	<Spawn name="Kangaskhan Mega" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Horsea" overwrite="true" rate="0.22" min="4" max="8" water="true" biomes="coral_reef,ocean"/>
+	<Spawn name="Seadra" overwrite="true" rate="0.01" min="1" max="4" water="true" biomes="kelp_forest"/>
+	<Spawn name="Goldeen" overwrite="true" rate="0.26" min="2" max="8" water="true" biomes="oasis_tropical_island,ocean"/>
+	<Spawn name="Seaking" overwrite="true" rate="0.08" min="1" max="2" water="true" biomes="oasis,tropical_island"/>
+	<Spawn name="Staryu" overwrite="true" rate="0.12" min="1" max="4" water="true" biomes="ocean"/>
+	<Spawn name="Starmie" overwrite="true" rate="0.03" min="1" max="6" water="true" biomes="ocean"/>
+	<Spawn name="Mr. Mime" overwrite="true" rate="0.005" min="1" max="2" biomes="ominous_woods"/>
+	<Spawn name="Scyther" overwrite="true" rate="0.003" min="1" max="2" biomes="meadow,tropical_rainforest,rainforest"/>
+	<Spawn name="Jynx" overwrite="true" rate="0.01" min="1" max="2" biomes="polar_chasm"/>
+	<Spawn name="Electabuzz" overwrite="true" rate="0.002" min="1" max="2" biomes="sacred_springs"/>
+	<Spawn name="Magmar" overwrite="true" rate="0.001" min="1" max="2" biomes="volcanic_island"/>
+	<Spawn name="Pinsir" overwrite="true" rate="0.001" min="1" max="2" biomes="overgrown_cliffs"/>
+	<Spawn name="Pinsir Mega" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Tauros" overwrite="true" rate="0.001" min="1" max="2" biomes="savanna,outback,prarie"/>
+	<Spawn name="Magikarp" overwrite="true" rate="0.45" min="1" max="10" types="lake,river,ocean,beach" water="true" biomes="marsh,lush_swamp,bayou,ocean,kelp_forest,moor,oasis,white_beach,gravel_beach"/>
+	<Spawn name="Gyarados" overwrite="true" rate="0.003" min="1" max="2" biomes="white_beach"/>
+	<Spawn name="Gyarados Mega" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Lapras" overwrite="true" rate="0.001" min="1" max="2" biomes="glacier"/>
+	<Spawn name="Ditto" overwrite="true" rate="0.002" min="1" max="2" biomes="mesa"/>
+	<Spawn name="Eevee" overwrite="true" rate="0.09" min="1" max="2" biomes="savanna,prarie,redwood_forest"/>
+	<Spawn name="Vaporeon" overwrite="true" rate="0.001" min="1" max="2" biomes="tropical_island"/>
+	<Spawn name="Jolteon" overwrite="true" rate="0.001" min="1" max="2" biomes="sacred_springs"/>
+	<Spawn name="Flareon" overwrite="true" rate="0.001" min="1" max="2" biomes="volcanic_island"/>
+	<Spawn name="Porygon" overwrite="true" rate="0.01" min="1" max="2" biomes="moor"/>
+	<Spawn name="Omanyte" overwrite="true" rate="0.011" min="1" max="2" biomes="coral_reef"/>
+	<Spawn name="Omastar" overwrite="true" rate="0.001" min="1" max="2" biomes="kelp_forest"/>
+	<Spawn name="Kabuto" overwrite="true" rate="0.011" min="1" max="2" biomes="wasteland"/>
+	<Spawn name="Kabutops" overwrite="true" rate="0.0011" min="1" max="2" biomes="wasteland"/>
+	<Spawn name="Aerodactyl" overwrite="true" rate="0.001" min="1" max="2" biomes="sky,cold_desert"/>
+	<Spawn name="Aerodactyl Mega" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Snorlax" overwrite="true" rate="0.001" min="1" max="2" biomes="plains,birch_forest"/>
+	<Spawn name="Articuno" overwrite="true" rate="0.001" min="1" max="2" biomes="alps"/>
+	<Spawn name="Zapdos" overwrite="true" rate="0.001" min="1" max="2" biomes="crag"/>
+	<Spawn name="Moltres" overwrite="true" rate="0.001" min="1" max="2" biomes="phantasmagoric_inferno"/>
+	<Spawn name="Dratini" overwrite="true" rate="0.12" min="1" max="2" biomes="white_beach"/>
+	<Spawn name="Dragonair" overwrite="true" rate="0.01" min="1" max="2" biomes="coral_reef"/>
+	<Spawn name="Dragonite" overwrite="true" rate="0.001" min="1" max="2" biomes="ice_mountains"/>
+	<Spawn name="Mewtwo" overwrite="true" rate="0.0001" min="1" max="2" biomes="sky"/>
+	<Spawn name="Mewtwo Mega-X" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Mewtwo Mega-Y" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Mew" overwrite="true" rate="0.0001" min="1" max="2" biomes="sky"/>
+	<Spawn name="Chikorita" starter="true" overwrite="true" rate="0.01" min="1" max="2" biomes="origin_island"/>
+	<Spawn name="Bayleef" overwrite="true" rate="0.001" min="1" max="2" biomes="flower_field"/>
+	<Spawn name="Meganium" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Cyndaquil" starter="true" overwrite="true" rate="0.01" min="1" max="2" biomes="origin_island"/>
+	<Spawn name="Quilava" overwrite="true" rate="0.001" min="1" max="2" biomes="outback"/>
+	<Spawn name="Typhlosion" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Totodile" starter="true" overwrite="true" rate="0.01" min="1" max="2" biomes="origin_island"/>
+	<Spawn name="Croconaw" overwrite="true" rate="0.001" min="1" max="2" biomes="dead_swamp"/>
+	<Spawn name="Feraligatr" overwrite="true" rate="0.0001" min="1" max="2" biomes=""/>
+	<Spawn name="Sentret" overwrite="true" rate="0.22" min="1" max="2" biomes="plains,prarie"/>
+	<Spawn name="Furret" overwrite="true" rate="0.01" min="1" max="2" biomes="prarie"/>
+	<Spawn name="Hoothoot" overwrite="true" rate="0.24" min="1" max="4" biomes="forest,taiga_cold,taiga_cold_hills"/>
+	<Spawn name="Noctowl" overwrite="true" rate="0.01" min="1" max="2" biomes="forest_hills"/>
+	<Spawn name="Ledyba" overwrite="true" rate="0.01" min="1" max="2" biomes="flower_field,grassland"/>
+	<Spawn name="Ledian" overwrite="true" rate="0.01" min="1" max="2" biomes="flower_field"/>
+	<Spawn name="Spinarak" overwrite="true" rate="0.01" min="1" max="2" biomes="forest_hills,birch_forest_hills"/>
+	<Spawn name="Ariados" overwrite="true" rate="0.01" min="1" max="2" biomes="forest_hills,dead_forest,birch_forest,"/>
+	<Spawn name="Crobat" overwrite="true" rate="0.01" min="1" max="2" biomes="dead_forest"/>
+	<Spawn name="Chinchou" overwrite="true" rate="0.01" min="1" max="2" biomes="redwood_taiga"/>
+	<Spawn name="Lanturn" overwrite="true" rate="0.01" min="1" max="2" biomes="redwood_taiga_hills"/>
+	<Spawn name="Pichu" overwrite="true" rate="0.01" min="1" max="2" biomes="prarie"/>
+	<Spawn name="Cleffa" rate="0.01" min="1" max="2" biomes="mystical_grove"/>
+	<Spawn name="Igglybuff" rate="0.01" min="1" max="2" biomes="mystical_grove"/>
+	<Spawn name="Togepi" overwrite="true" rate="0.01" min="1" max="2" biomes="orchard"/>
+	<Spawn name="Togetic" overwrite="true" rate="0.01" min="1" max="2" biomes="orchard"/>
+	<Spawn name="Natu" overwrite="true" rate="0.01" min="1" max="2" biomes="desert,desert_hills"/>
+	<Spawn name="Xatu" overwrite="true" rate="0.01" min="1" max="2" biomes="oasis"/>
+	<Spawn name="Mareep" overwrite="true" rate="0.01" min="1" max="2" biomes=",taiga,taiga_hills,taiga_cold,taiga_cold_hills,mountain"/>
+	<Spawn name="Flaaffy" overwrite="true" rate="0.01" min="1" max="2" biomes="mountain,taiga"/>
+	<Spawn name="Ampharos" overwrite="true" rate="0.01" min="1" max="2" biomes="mountain"/>
+	<Spawn name="Ampharos Mega" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Bellossom" overwrite="true" rate="0.01" min="1" max="2" biomes="flower_field"/>
+	<Spawn name="Marill" overwrite="true" rate="0.01" min="1" max="2" biomes="ocean,marsh,bog,swampland"/>
+	<Spawn name="Azumarill" overwrite="true" rate="0.01" min="1" max="2" biomes="ocean"/>
+	<Spawn name="Sudowoodo" overwrite="true" rate="0.01" min="1" max="2" biomes="roofed_forest"/>
+	<Spawn name="Politoed" overwrite="true" rate="0.01" min="1" max="2" biomes="swampland,bog"/>
+	<Spawn name="Hoppip" overwrite="true" rate="0.01" min="1" max="2" biomes="bog,swampland,prarie"/>
+	<Spawn name="Skiploom" overwrite="true" rate="0.01" min="1" max="2" biomes="marsh,prarie"/>
+	<Spawn name="Jumpluff" overwrite="true" rate="0.01" min="1" max="2" biomes="wetland,prarie"/>
+	<Spawn name="Aipom" overwrite="true" rate="0.01" min="1" max="2" biomes="rainforest,tropical_rainforest,tropical_island"/>
+	<Spawn name="Sunkern" overwrite="true" rate="0.01" min="1" max="2" biomes="meadow"/>
+	<Spawn name="Sunflora" overwrite="true" rate="0.01" min="1" max="2" biomes="flower_island"/>
+	<Spawn name="Yanma" overwrite="true" rate="0.01" min="1" max="2" biomes="bog,wetland,swampland"/>
+	<Spawn name="Wooper" overwrite="true" rate="0.01" min="1" max="2" biomes="bog,wetland,swampland,quagmire"/>
+	<Spawn name="Quagsire" overwrite="true" rate="0.01" min="1" max="2" biomes="quagmire"/>
+	<Spawn name="Espeon" overwrite="true" rate="0.01" min="1" max="2" biomes="ominous_woods"/>
+	<Spawn name="Umbreon" overwrite="true" rate="0.01" min="1" max="2" biomes="Ominous_woods"/>
+	<Spawn name="Murkrow" overwrite="true" rate="0.01" min="1" max="2" biomes="ominus_woods,forest,roofed_forest"/>
+	<Spawn name="Slowking" overwrite="true" rate="0.01" min="1" max="2" biomes="swampland"/>
+	<Spawn name="Misdreavus" overwrite="true" rate="0.01" min="1" max="2" biomes="dead_forest"/>
+	<Spawn name="Unown_A" overwrite="true" types="ruin" rate="0.03" min="1" max="2" biomes=""/>
+	<Spawn name="Unown_B" overwrite="true" types="ruin" rate="0.03" min="1" max="2" biomes=""/>
+	<Spawn name="Unown_C" overwrite="true" types="ruin" rate="0.03" min="1" max="2" biomes=""/>
+	<Spawn name="Unown_D" overwrite="true" types="ruin" rate="0.03" min="1" max="2" biomes=""/>
+	<Spawn name="Unown_E" overwrite="true" types="ruin" rate="0.03" min="1" max="2" biomes=""/>
+	<Spawn name="Unown_Ex" overwrite="true" types="ruin" rate="0.03" min="1" max="2" biomes=""/>
+	<Spawn name="Unown_F" overwrite="true" types="ruin" rate="0.03" min="1" max="2" biomes=""/>
+	<Spawn name="Unown_G" overwrite="true" types="ruin" rate="0.03" min="1" max="2" biomes=""/>
+	<Spawn name="Unown_H" overwrite="true" types="ruin" rate="0.03" min="1" max="2" biomes=""/>
+	<Spawn name="Unown_I" overwrite="true" types="ruin" rate="0.03" min="1" max="2" biomes=""/>
+	<Spawn name="Unown_J" overwrite="true" types="ruin" rate="0.03" min="1" max="2" biomes=""/>
+	<Spawn name="Unown_K" overwrite="true" types="ruin" rate="0.03" min="1" max="2" biomes=""/>
+	<Spawn name="Unown_L" overwrite="true" types="ruin" rate="0.03" min="1" max="2" biomes=""/>
+	<Spawn name="Unown_M" overwrite="true" types="ruin" rate="0.03" min="1" max="2" biomes=""/>
+	<Spawn name="Unown_N" overwrite="true" types="ruin" rate="0.03" min="1" max="2" biomes=""/>
+	<Spawn name="Unown_O" overwrite="true" types="ruin" rate="0.03" min="1" max="2" biomes=""/>
+	<Spawn name="Unown_P" overwrite="true" types="ruin" rate="0.03" min="1" max="2" biomes=""/>
+	<Spawn name="Unown_Q" overwrite="true" types="ruin" rate="0.03" min="1" max="2" biomes=""/>
+	<Spawn name="Unown_Qu" overwrite="true" types="ruin" rate="0.03" min="1" max="2" biomes=""/>
+	<Spawn name="Unown_R" overwrite="true" types="ruin" rate="0.03" min="1" max="2" biomes=""/>
+	<Spawn name="Unown_S" overwrite="true" types="ruin" rate="0.03" min="1" max="2" biomes=""/>
+	<Spawn name="Unown_T" overwrite="true" types="ruin" rate="0.03" min="1" max="2" biomes=""/>
+	<Spawn name="Unown_U" overwrite="true" types="ruin" rate="0.03" min="1" max="2" biomes=""/>
+	<Spawn name="Unown_V" overwrite="true" types="ruin" rate="0.03" min="1" max="2" biomes=""/>
+	<Spawn name="Unown_W" overwrite="true" types="ruin" rate="0.03" min="1" max="2" biomes=""/>
+	<Spawn name="Unown_X" overwrite="true" types="ruin" rate="0.03" min="1" max="2" biomes=""/>
+	<Spawn name="Unown_Y" overwrite="true" types="ruin" rate="0.03" min="1" max="2" biomes=""/>
+	<Spawn name="Unown_Z" overwrite="true" types="ruin" rate="0.03" min="1" max="2" biomes=""/>
+	<Spawn name="Wobbuffet" overwrite="true" rate="0.01" min="1" max="2" biomes="swampland,bog"/>
+	<Spawn name="Girafarig" overwrite="true" rate="0.01" min="1" max="2" biomes="savanna"/>
+	<Spawn name="Pineco" overwrite="true" rate="0.01" min="1" max="2" biomes="mountain"/>
+	<Spawn name="Forretress" overwrite="true" rate="0.01" min="1" max="2" biomes="mountain"/>
+	<Spawn name="Dunsparce" overwrite="true" rate="0.01" min="1" max="2" biomes="desert,cold_desert"/>
+	<Spawn name="Gligar" overwrite="true" rate="0.01" min="1" max="2" biomes="ominous_woods"/>
+	<Spawn name="Steelix" overwrite="true" rate="0.01" min="1" max="2" biomes="crag"/>
+	<Spawn name="Steelix Mega" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Snubbull" overwrite="true" rate="0.01" min="1" max="2" biomes="grassland,chaparral"/>
+	<Spawn name="Granbull" overwrite="true" rate="0.01" min="1" max="2" biomes="crag"/>
+	<Spawn name="Qwilfish" overwrite="true" rate="0.01" min="1" max="2" biomes="ocean,kelp_forest"/>
+	<Spawn name="Scizor" overwrite="true" rate="0.01" min="1" max="2" biomes="taiga_cold_hilld"/>
+	<Spawn name="Scizor Mega" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Shuckle" overwrite="true" rate="0.01" min="1" max="2" biomes=",gravel_beach"/>
+	<Spawn name="Heracross" overwrite="true" rate="0.01" min="1" max="2" biomes="roofed_forest,grove,swampland"/>
+	<Spawn name="Heracross Mega" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Sneasel" overwrite="true" rate="0.01" min="1" max="2" biomes="dead_forest"/>
+	<Spawn name="Teddiursa" overwrite="true" rate="0.01" min="1" max="2" biomes="mountain"/>
+	<Spawn name="Ursaring" overwrite="true" rate="0.01" min="1" max="2" biomes="mountain"/>
+	<Spawn name="Slugma" overwrite="true" rate="0.01" min="1" max="2" biomes="volcanic_island"/>
+	<Spawn name="Magcargo" overwrite="true" rate="0.01" min="1" max="2" biomes="volcanic_island"/>
+	<Spawn name="Swinub" overwrite="true" rate="0.01" min="1" max="2" biomes="plains,prarie,mountain,taiga_coldalps"/>
+	<Spawn name="Piloswine" overwrite="true" rate="0.01" min="1" max="2" biomes="taiga_cold_hills,mountain,alps"/>
+	<Spawn name="Corsola" overwrite="true" rate="0.01" min="1" max="2" biomes="coral_reef,white_beach,tropical_island"/>
+	<Spawn name="Remoraid" overwrite="true" rate="0.01" min="1" max="2" biomes="ocean,kelp_forest"/>
+	<Spawn name="Octillery" overwrite="true" rate="0.01" min="1" max="2" biomes="ocean"/>
+	<Spawn name="Delibird" overwrite="true" rate="0.01" min="1" max="2" biomes="glacier,ice_flats"/>
+	<Spawn name="Mantine" overwrite="true" rate="0.01" min="1" max="2" biomes="glacier,arctic"/>
+	<Spawn name="Skarmory" overwrite="true" rate="0.01" min="1" max="2" biomes="ice_flats"/>
+	<Spawn name="Houndour" overwrite="true" rate="0.01" min="1" max="2" biomes="volcanic_island,visceral_heap,phantasmagoric_inferno"/>
+	<Spawn name="Houndoom" overwrite="true" rate="0.01" min="1" max="2" biomes="phantasmagoric_inferno"/>
+	<Spawn name="Houndoom Mega" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Phanpy" overwrite="true" rate="0.01" min="1" max="2" biomes="savanna"/>
+	<Spawn name="Donphan" overwrite="true" rate="0.01" min="1" max="2" biomes="savanna"/>
+	<Spawn name="Porygon2" overwrite="true" rate="0.01" min="1" max="2" biomes="alps_foothills"/>
+	<Spawn name="Stantler" overwrite="true" rate="0.01" min="1" max="2" biomes="forest,forest_hills"/>
+	<Spawn name="Smeargle" overwrite="true" rate="0.01" min="1" max="2" biomes="roofed_forest"/>
+	<Spawn name="Tyrogue" overwrite="true" rate="0.01" min="1" max="2" biomes="taiga_hills"/>
+	<Spawn name="Hitmontop" overwrite="true" rate="0.01" min="1" max="2" biomes="taiga_cold_hills"/>
+	<Spawn name="Smoochum" overwrite="true" rate="0.01" min="1" max="2" biomes="quagmire,bog"/>
+	<Spawn name="Elekid" overwrite="true" rate="0.01" min="1" max="2" biomes="sacred_springs"/>
+	<Spawn name="Magby" overwrite="true" rate="0.01" min="1" max="2" biomes="volcanic_island"/>
+	<Spawn name="Miltank" overwrite="true" rate="0.01" min="1" max="2" biomes="prarie,plains"/>
+	<Spawn name="Blissey" overwrite="true" rate="0.01" min="1" max="2" biomes="plains"/>
+	<Spawn name="Raikou" overwrite="true" rate="0.01" min="1" max="2" biomes="alps_foothills,tundra"/>
+	<Spawn name="Entei" overwrite="true" rate="0.01" min="1" max="2" biomes="alps_foothills,tundra"/>
+	<Spawn name="Suicune" overwrite="true" rate="0.01" min="1" max="2" biomes="alps_foothills,tundra"/>
+	<Spawn name="Larvitar" overwrite="true" rate="0.01" min="1" max="2" biomes="rainforest"/>
+	<Spawn name="Pupitar" overwrite="true" rate="0.01" min="1" max="2" biomes="rainforest"/>
+	<Spawn name="Tyranitar" overwrite="true" rate="0.01" min="1" max="2" biomes="rainforest"/>
+	<Spawn name="Tyranitar Mega" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Lugia" overwrite="true" rate="0.01" min="1" max="2" biomes="alps"/>
+	<Spawn name="Ho-Oh" overwrite="true" rate="0.01" min="1" max="2" biomes="alps"/>
+	<Spawn name="Celebi" overwrite="true" rate="0.01" min="1" max="2" biomes="sky"/>
+	<Spawn name="Treecko" starter="true" overwrite="true" rate="0.01" min="1" max="2" biomes="origin_island"/>
+	<Spawn name="Grovyle" overwrite="true" rate="0.01" min="1" max="2" biomes="tropical_island"/>
+	<Spawn name="Sceptile" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Sceptile Mega" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Torchic" starter="true" overwrite="true" rate="0.01" min="1" max="2" biomes="origin_island"/>
+	<Spawn name="Combusken" overwrite="true" rate="0.01" min="1" max="2" biomes="outback"/>
+	<Spawn name="Blaziken" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Blaziken Mega" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Mudkip" starter="true" overwrite="true" rate="0.01" min="1" max="2" biomes="origin_island"/>
+	<Spawn name="Marshtomp" overwrite="true" rate="0.01" min="1" max="2" biomes="marsh,bog"/>
+	<Spawn name="Swampert" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Swampert Mega" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Poochyena" overwrite="true" rate="0.01" min="1" max="2" biomes="dead_forest"/>
+	<Spawn name="Mightyena" overwrite="true" rate="0.01" min="1" max="2" biomes="visceral_heap"/>
+	<Spawn name="Zigzagoon" overwrite="true" rate="0.01" min="1" max="2" biomes="redwood_taiga,redwood_taiga_hills"/>
+	<Spawn name="Linoone" overwrite="true" rate="0.01" min="1" max="2" biomes="roofed_forest,birch_forest"/>
+	<Spawn name="Wurmple" overwrite="true" rate="0.01" min="1" max="2" biomes="birch_forest,birch_forest_hills,forest_hills"/>
+	<Spawn name="Silcoon" overwrite="true" rate="0.01" min="1" max="2" biomes="birch_forest,forest_hills"/>
+	<Spawn name="Beautifly" overwrite="true" rate="0.01" min="1" max="2" biomes="lavender_fields,flower_field"/>
+	<Spawn name="Cascoon" overwrite="true" rate="0.01" min="1" max="2" biomes="coniferous_forest,fen"/>
+	<Spawn name="Dustox" overwrite="true" rate="0.01" min="1" max="2" biomes="fen"/>
+	<Spawn name="Lotad" overwrite="true" rate="0.01" min="1" max="2" biomes="lush_swamp,marsh,moor"/>
+	<Spawn name="Lombre" overwrite="true" rate="0.01" min="1" max="2" biomes="marsh,moor"/>
+	<Spawn name="Ludicolo" overwrite="true" rate="0.01" min="1" max="2" biomes="moor"/>
+	<Spawn name="Seedot" overwrite="true" rate="0.01" min="1" max="2" biomes="lush_desert"/>
+	<Spawn name="Nuzleaf" overwrite="true" rate="0.01" min="1" max="2" biomes="lush_desert"/>
+	<Spawn name="Shiftry" overwrite="true" rate="0.01" min="1" max="2" biomes="chaparral"/>
+	<Spawn name="Taillow" overwrite="true" rate="0.01" min="1" max="2" biomes="birch_forest,brushland"/>
+	<Spawn name="Swellow" overwrite="true" rate="0.01" min="1" max="2" biomes="brushland"/>
+	<Spawn name="Wingull" overwrite="true" rate="0.01" min="1" max="2" biomes="ocean,gravel_beach,white_beach"/>
+	<Spawn name="Pelipper" overwrite="true" rate="0.01" min="1" max="2" biomes="ocean,white_beach"/>
+	<Spawn name="Ralts" overwrite="true" rate="0.01" min="1" max="2" biomes="roofed_forest,cherry_blossom_grove,grove"/>
+	<Spawn name="Kirlia" overwrite="true" rate="0.01" min="1" max="2" biomes="grove"/>
+	<Spawn name="Gardevoir" overwrite="true" rate="0.01" min="1" max="2" biomes="grove"/>
+	<Spawn name="Gardevoir Mega" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Surskit" overwrite="true" rate="0.01" min="1" max="2" biomes="bayou,land_of_lakes"/>
+	<Spawn name="Masquerain" overwrite="true" rate="0.01" min="1" max="2" biomes="land_of_lakes"/>
+	<Spawn name="Shroomish" overwrite="true" rate="0.01" min="1" max="2" biomes="mushroom_island"/>
+	<Spawn name="Breloom" overwrite="true" rate="0.01" min="1" max="2" biomes="mushroom_island"/>
+	<Spawn name="Slakoth" overwrite="true" rate="0.01" min="1" max="2" biomes="rainforest,tropical_rainforest"/>
+	<Spawn name="Vigoroth" overwrite="true" rate="0.01" min="1" max="2" biomes="raiforest"/>
+	<Spawn name="Slaking" overwrite="true" rate="0.01" min="1" max="2" biomes="tropical_rainforest"/>
+	<Spawn name="Nincada" overwrite="true" rate="0.01" min="1" max="2" biomes="swampland,bayou,mangrove"/>
+	<Spawn name="Ninjask" overwrite="true" rate="0.01" min="1" max="2" biomes="swampland,mangrove"/>
+	<Spawn name="Shedinja" overwrite="true" rate="0.01" min="1" max="2" biomes="mangrove"/>
+	<Spawn name="Whismur" overwrite="true" rate="0.01" min="1" max="2" biomes="redwood_forest,extreme_hills"/>
+	<Spawn name="Loudred" overwrite="true" rate="0.01" min="1" max="2" biomes="redwood_forest,extreme_hills"/>
+	<Spawn name="Exploud" overwrite="true" rate="0.01" min="1" max="2" biomes="extreme_hills_with_trees"/>
+	<Spawn name="Makuhita" overwrite="true" rate="0.01" min="1" max="2" biomes="tropical_island,tropical_rainforest"/>
+	<Spawn name="Hariyama" overwrite="true" rate="0.01" min="1" max="2" biomes="tropical_island"/>
+	<Spawn name="Azurill" overwrite="true" rate="0.01" min="1" max="2" biomes="gravel_beach"/>
+	<Spawn name="Nosepass" overwrite="true" rate="0.01" min="1" max="2" biomes="alps,alps_foothills,extreme_hills"/>
+	<Spawn name="Skitty" overwrite="true" rate="0.01" min="1" max="2" biomes="woodland,orchard"/>
+	<Spawn name="Delcatty" overwrite="true" rate="0.01" min="1" max="2" biomes="orchard"/>
+	<Spawn name="Sableye" overwrite="true" rate="0.01" min="1" max="2" biomes="dead_forest,hell"/>
+	<Spawn name="Sableye Mega" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Mawile" overwrite="true" rate="0.01" min="1" max="2" biomes="jungle,jungle_hills"/>
+	<Spawn name="Mawile Mega" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Aron" overwrite="true" rate="0.01" min="1" max="2" biomes="mesa,mountain"/>
+	<Spawn name="Lairon" overwrite="true" rate="0.01" min="1" max="2" biomes="mesa,mountain"/>
+	<Spawn name="Aggron" overwrite="true" rate="0.01" min="1" max="2" biomes="alps"/>
+	<Spawn name="Aggron Mega" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Meditite" overwrite="true" rate="0.01" min="1" max="2" biomes="jungle,plains"/>
+	<Spawn name="Meditite Female" overwrite="true" rate="0.01" min="1" max="2" biomes="jungle,plains"/>
+	<Spawn name="Medicham" overwrite="true" rate="0.01" min="1" max="2" biomes="jungle"/>
+	<Spawn name="Medicham Mega" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Electrike" overwrite="true" rate="0.01" min="1" max="2" biomes="meadow,lavender_fields,grassland"/>
+	<Spawn name="Manectric" overwrite="true" rate="0.01" min="1" max="2" biomes="grassland"/>
+	<Spawn name="Manectric Mega" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Plusle" overwrite="true" rate="0.01" min="1" max="2" biomes="orchard"/>
+	<Spawn name="Minun" overwrite="true" rate="0.01" min="1" max="2" biomes="orachard"/>
+	<Spawn name="Volbeat" overwrite="true" rate="0.01" min="1" max="2" biomes="ominous_woods,forest"/>
+	<Spawn name="Illumise" overwrite="true" rate="0.01" min="1" max="2" biomes="ominous_woods,forest_hills"/>
+	<Spawn name="Roselia" overwrite="true" rate="0.01" min="1" max="2" biomes="flower_island,flower_field"/>
+	<Spawn name="Gulpin" overwrite="true" rate="0.01" min="1" max="2" biomes="moor,jungle"/>
+	<Spawn name="Swalot" overwrite="true" rate="0.01" min="1" max="2" biomes="moor"/>
+	<Spawn name="Carvanha" overwrite="true" rate="0.01" min="1" max="2" biomes="kelp_forest"/>
+	<Spawn name="Sharpedo" overwrite="true" rate="0.01" min="1" max="2" biomes="ocean"/>
+	<Spawn name="Sharpedo Mega" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Wailmer" overwrite="true" rate="0.01" min="1" max="2" biomes="ocean"/>
+	<Spawn name="Wailord" overwrite="true" rate="0.01" min="1" max="2" biomes="kelp_forest"/>
+	<Spawn name="Numel" overwrite="true" rate="0.01" min="1" max="2" biomes="outback,volcanic_fields,desert,desert_hills"/>
+	<Spawn name="Camerupt" overwrite="true" rate="0.01" min="1" max="2" biomes="outback"/>
+	<Spawn name="Camerupt Mega" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Spoink" overwrite="true" rate="0.01" min="1" max="2" biomes="forest,forest_hills"/>
+	<Spawn name="Grumpig" overwrite="true" rate="0.01" min="1" max="2" biomes="forest"/>
+	<Spawn name="Spinda" overwrite="true" rate="0.01" min="1" max="2" biomes="boreal_forest,redwood_forest,mountain"/>
+	<Spawn name="Trapinch" overwrite="true" rate="0.01" min="1" max="2" biomes="desert,desert_hills,lush_desert"/>
+	<Spawn name="Vibrava" overwrite="true" rate="0.01" min="1" max="2" biomes="lush_desert"/>
+	<Spawn name="Flygon" overwrite="true" rate="0.01" min="1" max="2" biomes="oasis"/>
+	<Spawn name="Cacnea" overwrite="true" rate="0.01" min="1" max="2" biomes="desert,desert_hills"/>
+	<Spawn name="Cacturne" overwrite="true" rate="0.01" min="1" max="2" biomes="desert_hills"/>
+	<Spawn name="Swablu" overwrite="true" rate="0.01" min="1" max="2" biomes="sky,jungle_hills"/>
+	<Spawn name="Altaria" overwrite="true" rate="0.01" min="1" max="2" biomes="sky"/>
+	<Spawn name="Altaria Mega" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Zangoose" overwrite="true" rate="0.01" min="1" max="2" biomes="sacred_springs"/>
+	<Spawn name="Seviper" overwrite="true" rate="0.01" min="1" max="2" biomes="desert,deser_hills"/>
+	<Spawn name="Lunatone" overwrite="true" rate="0.01" min="1" max="2" biomes="sky"/>
+	<Spawn name="Solrock" overwrite="true" rate="0.01" min="1" max="2" biomes="sky"/>
+	<Spawn name="Barboach" overwrite="true" rate="0.01" min="1" max="2" biomes="ocean,swampland,bayou"/>
+	<Spawn name="Whiscash" overwrite="true" rate="0.01" min="1" max="2" biomes="oceanswampland,bayou"/>
+	<Spawn name="Corphish" overwrite="true" rate="0.01" min="1" max="2" biomes="coral_reef,gravel_beach"/>
+	<Spawn name="Crawdaunt" overwrite="true" rate="0.01" min="1" max="2" biomes="coral_reef"/>
+	<Spawn name="Baltoy" overwrite="true" rate="0.01" min="1" max="2" biomes="cold_desert"/>
+	<Spawn name="Claydol" overwrite="true" rate="0.01" min="1" max="2" biomes="cold_desert"/>
+	<Spawn name="Lileep" overwrite="true" rate="0.01" min="1" max="2" biomes="cherry_blossom_grove"/>
+	<Spawn name="Cradily" overwrite="true" rate="0.01" min="1" max="2" biomes="cherry_blossom_grove"/>
+	<Spawn name="Anorith" overwrite="true" rate="0.01" min="1" max="2" biomes="kelp_forest,oasis"/>
+	<Spawn name="Armaldo" overwrite="true" rate="0.01" min="1" max="2" biomes="oasis"/>
+	<Spawn name="Feebas" overwrite="true" rate="0.01" min="1" max="2" biomes="kelp_forest,land_of_lakes"/>
+	<Spawn name="Milotic" overwrite="true" rate="0.01" min="1" max="2" biomes="land_of_lakes"/>
+	<Spawn name="Castform" overwrite="true" rate="0.01" min="1" max="2" biomes="sky,land_of_lakes"/>
+	<Spawn name="Castform Sun" overwrite="true" rate="0.01" min="1" max="2" biomes="desert"/>
+	<Spawn name="Castform Rain" overwrite="true" rate="0.01" min="1" max="2" biomes="eucalyptus_forest"/>
+	<Spawn name="Castform Snow" overwrite="true" rate="0.01" min="1" max="2" biomes="snowy_coniferous"/>
+	<Spawn name="Kecleon" overwrite="true" rate="0.01" min="1" max="2" biomes="tropical_island"/>
+	<Spawn name="Shuppet" overwrite="true" rate="0.01" min="1" max="2" biomes="dead_swamp"/>
+	<Spawn name="Banette" overwrite="true" rate="0.01" min="1" max="2" biomes="Dead_forest"/>
+	<Spawn name="Banette Mega" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Duskull" overwrite="true" rate="0.01" min="1" max="2" biomes="corrupt_sands"/>
+	<Spawn name="Dusclops" overwrite="true" rate="0.01" min="1" max="2" biomes="corrupt_sands"/>
+	<Spawn name="Tropius" overwrite="true" rate="0.01" min="1" max="2" biomes="tropical_island"/>
+	<Spawn name="Chimecho" overwrite="true" rate="0.01" min="1" max="2" biomes="snowy_forest"/>
+	<Spawn name="Absol" overwrite="true" rate="0.01" min="1" max="2" biomes="alps,mountains,redwood_taiga_hills,taiga_cold_hills,ice_mountains"/>
+	<Spawn name="Absol Mega" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Wynaut" overwrite="true" rate="0.01" min="1" max="2" biomes="lush_swamp"/>
+	<Spawn name="Snorunt" overwrite="true" rate="0.01" min="1" max="2" biomes="snowy_forest,snowy_coniferous_forest"/>
+	<Spawn name="Glalie" overwrite="true" rate="0.01" min="1" max="2" biomes="glacier,snowy_coniferous_forest"/>
+	<Spawn name="Glalie Mega" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Spheal" overwrite="true" rate="0.01" min="1" max="2" biomes="glacier,ice_flats"/>
+	<Spawn name="Sealeo" overwrite="true" rate="0.01" min="1" max="2" biomes="glacier,ice_flats"/>
+	<Spawn name="Walrein" overwrite="true" rate="0.01" min="1" max="2" biomes="glacier"/>
+	<Spawn name="Clamperl" overwrite="true" rate="0.01" min="1" max="2" biomes="coral_reef"/>
+	<Spawn name="Huntail" overwrite="true" rate="0.01" min="1" max="2" biomes="kelp_forest"/>
+	<Spawn name="Gorebyss" overwrite="true" rate="0.01" min="1" max="2" biomes="kelp_forest"/>
+	<Spawn name="Relicanth" overwrite="true" rate="0.01" min="1" max="2" biomes="ocean"/>
+	<Spawn name="Luvdisc" overwrite="true" rate="0.01" min="1" max="2" biomes="coral_reef"/>
+	<Spawn name="Bagon" overwrite="true" rate="0.01" min="1" max="2" biomes="crag"/>
+	<Spawn name="Shelgon" overwrite="true" rate="0.01" min="1" max="2" biomes="crag"/>
+	<Spawn name="Salamence" overwrite="true" rate="0.01" min="1" max="2" biomes="crag"/>
+	<Spawn name="Salamence Mega" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Beldum" overwrite="true" rate="0.01" min="1" max="2" biomes="polar_chasm,ice_mountains"/>
+	<Spawn name="Metang" overwrite="true" rate="0.01" min="1" max="2" biomes="polar_chasm"/>
+	<Spawn name="Metagross" overwrite="true" rate="0.01" min="1" max="2" biomes="ice_mountains,alps"/>
+	<Spawn name="Metagross Mega" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Regirock" overwrite="true" rate="0.01" min="1" max="2" biomes="mesa_clear_rock,mesa,taiga_cold"/>
+	<Spawn name="Regice" overwrite="true" rate="0.01" min="1" max="2" biomes="mesa_taiga_cold_hills"/>
+	<Spawn name="Registeel" overwrite="true" rate="0.01" min="1" max="2" biomes="Mesa_clear_rock"/>
+	<Spawn name="Latias" overwrite="true" rate="0.01" min="1" max="2" biomes="ice_mountains"/>
+	<Spawn name="Latias Mega" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Latios" overwrite="true" rate="0.01" min="1" max="2" biomes="ice_mountains"/>
+	<Spawn name="Latios Mega" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Kyogre" overwrite="true" rate="0.01" min="1" max="2" biomes="undergarden"/>
+	<Spawn name="Kyogre Primal" overwrite="true" rate="0.01" min="1" max="2" biomes="origin_island"/>
+	<Spawn name="Groudon" overwrite="true" rate="0.01" min="1" max="2" biomes="undergarden"/>
+	<Spawn name="Groudon Primal" overwrite="true" rate="0.01" min="1" max="2" biomes="origin_island"/>
+	<Spawn name="Rayquaza" overwrite="true" rate="0.01" min="1" max="2" biomes="sky"/>
+	<Spawn name="Rayquaza Mega" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Jirachi" overwrite="true" rate="0.01" min="1" max="2" biomes="sky"/>
+	<Spawn name="Deoxys" overwrite="true" rate="0.01" min="1" max="2" biomes="sky"/>
+	<Spawn name="Deoxys Attack" overwrite="true" rate="0.01" min="1" max="2" biomes="sky"/>
+	<Spawn name="Deoxys Defense" overwrite="true" rate="0.01" min="1" max="2" biomes="sky"/>
+	<Spawn name="Deoxys Speed" overwrite="true" rate="0.01" min="1" max="2" biomes="sky"/>
+	<Spawn name="Turtwig" starter="true" overwrite="true" rate="0.01" min="1" max="2" biomes="origin_island"/>
+	<Spawn name="Grotle" overwrite="true" rate="0.01" min="1" max="2" biomes="grove"/>
+	<Spawn name="Torterra" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Chimchar" starter="true" overwrite="true" rate="0.01" min="1" max="2" biomes="origin_island"/>
+	<Spawn name="Monferno" overwrite="true" rate="0.01" min="1" max="2" biomes="desert"/>
+	<Spawn name="Infernape" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Piplup" starter="true" overwrite="true" rate="0.01" min="1" max="2" biomes="origin_island"/>
+	<Spawn name="Prinplup" overwrite="true" rate="0.01" min="1" max="2" biomes="ice_flats"/>
+	<Spawn name="Empoleon" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Starly" overwrite="true" rate="0.01" min="1" max="2" biomes="chaparral,brushland"/>
+	<Spawn name="Staravia" overwrite="true" rate="0.01" min="1" max="2" biomes="brushland"/>
+	<Spawn name="Staraptor" overwrite="true" rate="0.01" min="1" max="2" biomes="chaparral"/>
+	<Spawn name="Bidoof" overwrite="true" rate="0.01" min="1" max="2" biomes="coniferous_forest"/>
+	<Spawn name="Bibarel" overwrite="true" rate="0.01" min="1" max="2" biomes="coniferous_forest"/>
+	<Spawn name="Kricketot" overwrite="true" rate="0.01" min="1" max="2" biomes="brushland,bog,fen"/>
+	<Spawn name="Kricketune" overwrite="true" rate="0.01" min="1" max="2" biomes="fen"/>
+	<Spawn name="Shinx" overwrite="true" rate="0.01" min="1" max="2" biomes="desert,chaparral"/>
+	<Spawn name="Luxio" overwrite="true" rate="0.01" min="1" max="2" biomes="desert"/>
+	<Spawn name="Luxray" overwrite="true" rate="0.01" min="1" max="2" biomes="desert_hills"/>
+	<Spawn name="Budew" overwrite="true" rate="0.01" min="1" max="2" biomes="meadow,marsh,moor"/>
+	<Spawn name="Roserade" overwrite="true" rate="0.01" min="1" max="2" biomes="marsh"/>
+	<Spawn name="Cranidos" overwrite="true" rate="0.01" min="1" max="2" biomes="chaparral"/>
+	<Spawn name="Rampardos" overwrite="true" rate="0.01" min="1" max="2" biomes="chaparral"/>
+	<Spawn name="Shieldon" overwrite="true" rate="0.01" min="1" max="2" biomes="brushland"/>
+	<Spawn name="Bastiodon" overwrite="true" rate="0.01" min="1" max="2" biomes="brushland"/>
+	<Spawn name="Burmy" overwrite="true" rate="0.01" min="1" max="2" biomes="brushland,mangrove,shield"/>
+	<Spawn name="Wormadam" overwrite="true" rate="0.01" min="1" max="2" biomes="shield"/>
+	<Spawn name="Wormadam Sandy" overwrite="true" rate="0.01" min="1" max="2" biomes="lush_desert"/>
+	<Spawn name="Wormadam Trash" overwrite="true" rate="0.01" min="1" max="2" biomes="dead_swamp"/>
+	<Spawn name="Mothim" overwrite="true" rate="0.01" min="1" max="2" biomes="seasonal_forest"/>
+	<Spawn name="Combee" overwrite="true" rate="0.01" min="1" max="2" biomes="orchard,meadow,flower_field,flower_island"/>
+	<Spawn name="Vespiquen" overwrite="true" rate="0.01" min="1" max="2" biomes="flower_island"/>
+	<Spawn name="Pachirisu" overwrite="true" rate="0.01" min="1" max="2" biomes="coniferous_forest,boreal_forest"/>
+	<Spawn name="Buizel" overwrite="true" rate="0.01" min="1" max="2" biomes="moor,wetland"/>
+	<Spawn name="Floatzel" overwrite="true" rate="0.01" min="1" max="2" biomes="moor,wetland"/>
+	<Spawn name="Cherubi" overwrite="true" rate="0.01" min="1" max="2" biomes="grasslands,jungle,maple_woods"/>
+	<Spawn name="Cherrim" overwrite="true" rate="0.01" min="1" max="2" biomes="grassland,jungle"/>
+	<Spawn name="Cherrim Sunny" overwrite="true" rate="0.01" min="1" max="2" biomes="jungle"/>
+	<Spawn name="Shellos" overwrite="true" rate="0.01" min="1" max="2" biomes="tropical_island"/>
+	<Spawn name="Gastrodon" overwrite="true" rate="0.01" min="1" max="2" biomes="tropical_island"/>
+	<Spawn name="Ambipom" overwrite="true" rate="0.01" min="1" max="2" biomes="jungle,jungle_hills,tropical_rainforest,rainforest"/>
+	<Spawn name="Drifloon" overwrite="true" rate="0.01" min="1" max="2" biomes="sky"/>
+	<Spawn name="Drifblim" overwrite="true" rate="0.01" min="1" max="2" biomes="sky"/>
+	<Spawn name="Buneary" overwrite="true" rate="0.01" min="1" max="2" biomes="coniferous_forest,boreal_forest,land_of_lakes"/>
+	<Spawn name="Lopunny" overwrite="true" rate="0.01" min="1" max="2" biomes="coniferous_forest"/>
+	<Spawn name="Lopunny Mega" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Mismagius" overwrite="true" rate="0.01" min="1" max="2" biomes="dead_forest"/>
+	<Spawn name="Honchkrow" overwrite="true" rate="0.01" min="1" max="2" biomes="coniferous_forest"/>
+	<Spawn name="Glameow" overwrite="true" rate="0.01" min="1" max="2" biomes="plains"/>
+	<Spawn name="Purugly" overwrite="true" rate="0.01" min="1" max="2" biomes="plains"/>
+	<Spawn name="Chingling" overwrite="true" rate="0.01" min="1" max="2" biomes="ice_flats"/>
+	<Spawn name="Stunky" overwrite="true" rate="0.01" min="1" max="2" biomes="coniferous_forest,boreal_forest"/>
+	<Spawn name="Skuntank" overwrite="true" rate="0.01" min="1" max="2" biomes="coniferous_forest,boreal_forest"/>
+	<Spawn name="Bronzor" overwrite="true" rate="0.01" min="1" max="2" biomes="extreme_hills"/>
+	<Spawn name="Bronzong" overwrite="true" rate="0.01" min="1" max="2" biomes="extreme_hills_with_trees"/>
+	<Spawn name="Bonsly" overwrite="true" rate="0.01" min="1" max="2" biomes="roofed_forest"/>
+	<Spawn name="Mime Jr." overwrite="true" rate="0.01" min="1" max="2" biomes="taiga_hills"/>
+	<Spawn name="Happiny" overwrite="true" rate="0.01" min="1" max="2" biomes="flower_field"/>
+	<Spawn name="Chatot" overwrite="true" rate="0.01" min="1" max="2" biomes="tropical_island,tropical_rainforest,rainforest"/>
+	<Spawn name="Spiritomb" overwrite="true" rate="0.01" min="1" max="2" biomes="dead_swamp"/>
+	<Spawn name="Gible" overwrite="true" rate="0.01" min="1" max="2" biomes="land_of_lakes,overgrown_cliff"/>
+	<Spawn name="Gabite" overwrite="true" rate="0.01" min="1" max="2" biomes="overgrown_cliff"/>
+	<Spawn name="Garchomp" overwrite="true" rate="0.01" min="1" max="2" biomes="overgrown_cliff"/>
+	<Spawn name="Garchomp Mega" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Munchlax" overwrite="true" rate="0.01" min="1" max="2" biomes="taiga_cold_hills"/>
+	<Spawn name="Riolu" overwrite="true" rate="0.01" min="1" max="2" biomes="taiga_hills"/>
+	<Spawn name="Lucario" overwrite="true" rate="0.01" min="1" max="2" biomes="taiga_cold"/>
+	<Spawn name="Lucario Mega" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Hippopotas" overwrite="true" rate="0.01" min="1" max="2" biomes="lush_desert,savanna,steppe"/>
+	<Spawn name="Hippowdon" overwrite="true" rate="0.01" min="1" max="2" biomes="lush_desert,savanna,steppe"/>
+	<Spawn name="Hippowdon Female" overwrite="true" rate="0.01" min="1" max="2" biomes="lush_desert,savanna,steppe"/>
+	<Spawn name="Skorupi" overwrite="true" rate="0.01" min="1" max="2" biomes="xeric_shrubland"/>
+	<Spawn name="Drapion" overwrite="true" rate="0.01" min="1" max="2" biomes="xeric_shrubland"/>
+	<Spawn name="Croagunk" overwrite="true" rate="0.01" min="1" max="2" biomes="wasteland,mangrove"/>
+	<Spawn name="Toxicroak" overwrite="true" rate="0.01" min="1" max="2" biomes="wasteland"/>
+	<Spawn name="Carnivine" overwrite="true" rate="0.01" min="1" max="2" biomes="rainforest,tropical_rainforest,lush_desert"/>
+	<Spawn name="Finneon" overwrite="true" rate="0.01" min="1" max="2" biomes="ocean,oasis"/>
+	<Spawn name="Lumineon" overwrite="true" rate="0.01" min="1" max="2" biomes="oasis"/>
+	<Spawn name="Mantyke" overwrite="true" rate="0.01" min="1" max="2" biomes="ocean,coral_reef"/>
+	<Spawn name="Snover" overwrite="true" rate="0.01" min="1" max="2" biomes="snowy_coniferous_forest,mountain,alps"/>
+	<Spawn name="Abomasnow" overwrite="true" rate="0.01" min="1" max="2" biomes="snowy_coniferous_forest,alps"/>
+	<Spawn name="Abomasnow Meg" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Weavile" overwrite="true" rate="0.01" min="1" max="2" biomes="mystic_grove"/>
+	<Spawn name="Magnezone" overwrite="true" rate="0.01" min="1" max="2" biomes="mountain,crag"/>
+	<Spawn name="Lickilicky" overwrite="true" rate="0.01" min="1" max="2" biomes="moor"/>
+	<Spawn name="Rhyperior" overwrite="true" rate="0.01" min="1" max="2" biomes="outback,alps_foothills,mountain_foothills"/>
+	<Spawn name="Tangrowth" overwrite="true" rate="0.01" min="1" max="2" biomes="tropical_rainforest,woodland"/>
+	<Spawn name="Electivire" overwrite="true" rate="0.01" min="1" max="2" biomes="highland"/>
+	<Spawn name="Magmortar" overwrite="true" rate="0.01" min="1" max="2" biomes="volcanic_island,hell"/>
+	<Spawn name="Togekiss" overwrite="true" rate="0.01" min="1" max="2" biomes="origin_island"/>
+	<Spawn name="Yanmega" overwrite="true" rate="0.01" min="1" max="2" biomes="mystic_grove,bayou"/>
+	<Spawn name="Leafeon" overwrite="true" rate="0.01" min="1" max="2" biomes="mystic_grove"/>
+	<Spawn name="Glaceon" overwrite="true" rate="0.01" min="1" max="2" biomes="glacier"/>
+	<Spawn name="Gliscor" overwrite="true" rate="0.01" min="1" max="2" biomes="ominous_woods"/>
+	<Spawn name="Mamoswine" overwrite="true" rate="0.01" min="1" max="2" biomes="alps,mountain"/>
+	<Spawn name="Porygon-Z" overwrite="true" rate="0.01" min="1" max="2" biomes="crag"/>
+	<Spawn name="Gallade" overwrite="true" rate="0.01" min="1" max="2" biomes="grove"/>
+	<Spawn name="Gallade Mega" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Probopass" overwrite="true" rate="0.01" min="1" max="2" biomes="alps,mountain"/>
+	<Spawn name="Dusknoir" overwrite="true" rate="0.01" min="1" max="2" biomes="redwood_forest"/>
+	<Spawn name="Froslass" overwrite="true" rate="0.01" min="1" max="2" biomes="alps"/>
+	<Spawn name="Rotom" overwrite="true" rate="0.01" min="1" max="2" biomes="alps"/>
+	<Spawn name="Rotom Fan" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Rotom Frost" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Rotom Heat" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Rotom Mow" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Rotom Wash" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Uxie" overwrite="true" rate="0.01" min="1" max="2" biomes="sky"/>
+	<Spawn name="Mesprit" overwrite="true" rate="0.01" min="1" max="2" biomes="sky"/>
+	<Spawn name="Azelf" overwrite="true" rate="0.01" min="1" max="2" biomes="sky"/>
+	<Spawn name="Dialga" overwrite="true" rate="0.01" min="1" max="2" biomes="sky"/>
+	<Spawn name="Palkia" overwrite="true" rate="0.01" min="1" max="2" biomes="sky"/>
+	<Spawn name="Heatran" overwrite="true" rate="0.01" min="1" max="2" biomes="volcanic_island"/>
+	<Spawn name="Regigigas" overwrite="true" rate="0.01" min="1" max="2" biomes="shrubland,seasonal_forest"/>
+	<Spawn name="Giratina" overwrite="true" rate="0.01" min="1" max="2" biomes="desert"/>
+	<Spawn name="Giratina Origin" overwrite="true" rate="0.01" min="1" max="2" biomes="desert"/>
+	<Spawn name="Cresselia" overwrite="true" rate="0.01" min="1" max="2" biomes="sky"/>
+	<Spawn name="Phione" overwrite="true" rate="0.01" min="1" max="2" biomes="ocean"/>
+	<Spawn name="Manaphy" overwrite="true" rate="0.01" min="1" max="2" biomes="ocean"/>
+	<Spawn name="Darkrai" overwrite="true" rate="0.01" min="1" max="2" biomes="dead_swamp"/>
+	<Spawn name="Shaymin Land" overwrite="true" rate="0.01" min="1" max="2" biomes="eucalyptus_forest"/>
+	<Spawn name="Shaymin Sky" overwrite="true" rate="0.01" min="1" max="2" biomes="eucalyptus_forest"/>
+	<Spawn name="Arceus" overwrite="true" rate="0.0001" min="1" max="2" biomes="sky"/>
+	<Spawn name="Arceus Bug" overwrite="true" rate="0.0001" min="1" max="2" biomes="sky"/>
+	<Spawn name="Arceus Dark" overwrite="true" rate="0.0001" min="1" max="2" biomes="sky"/>
+	<Spawn name="Arceus Dragon" overwrite="true" rate="0.0001" min="1" max="2" biomes="sky"/>
+	<Spawn name="Arceus Electric" overwrite="true" rate="0.0001" min="1" max="2" biomes="sky"/>
+	<Spawn name="Arceus Fairy" overwrite="true" rate="0.0001" min="1" max="2" biomes="sky"/>
+	<Spawn name="Arceus Fighting" overwrite="true" rate="0.0001" min="1" max="2" biomes="sky"/>
+	<Spawn name="Arceus Fire" overwrite="true" rate="0.0001" min="1" max="2" biomes="sky"/>
+	<Spawn name="Arceus Flying" overwrite="true" rate="0.0001" min="1" max="2" biomes="sky"/>
+	<Spawn name="Arceus Ghost" overwrite="true" rate="0.0001" min="1" max="2" biomes="sky"/>
+	<Spawn name="Arceus Grass" overwrite="true" rate="0.0001" min="1" max="2" biomes="sky"/>
+	<Spawn name="Arceus Ground" overwrite="true" rate="0.0001" min="1" max="2" biomes="sky"/>
+	<Spawn name="Arceus Ice" overwrite="true" rate="0.0001" min="1" max="2" biomes="sky"/>
+	<Spawn name="Arceus Poison" overwrite="true" rate="0.0001" min="1" max="2" biomes="sky"/>
+	<Spawn name="Arceus Psychic" overwrite="true" rate="0.0001" min="1" max="2" biomes="sky"/>
+	<Spawn name="Arceus Rock" overwrite="true" rate="0.0001" min="1" max="2" biomes="sky"/>
+	<Spawn name="Arceus Steel" overwrite="true" rate="0.0001" min="1" max="2" biomes="sky"/>
+	<Spawn name="Arceus Water" overwrite="true" rate="0.0001" min="1" max="2" biomes="sky"/>
+	<Spawn name="Victini" overwrite="true" rate="0.001" min="1" max="2" biomes="hell"/>
+	<Spawn name="Snivy" starter="true" overwrite="true" rate="0.01" min="1" max="2" biomes="origin_island"/>
+	<Spawn name="Servine" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Serperior" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Tepig" starter="true" overwrite="true" rate="0.01" min="1" max="2" biomes="origin_island"/>
+	<Spawn name="Pignite" overwrite="true" rate="0.001" min="1" max="2" biomes=""/>
+	<Spawn name="Emboar" overwrite="true" rate="0.0001" min="1" max="2" biomes=""/>
+	<Spawn name="Oshawott" starter="true" overwrite="true" rate="0.01" min="1" max="2" biomes="origin_island"/>
+	<Spawn name="Dewott" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Samurott" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Patrat" overwrite="true" rate="0.01" min="1" max="2" biomes="eucalyptus_forest,birch_forest"/>
+	<Spawn name="Watchog" overwrite="true" rate="0.01" min="1" max="2" biomes="eucalyptus_forest,birch_forest"/>
+	<Spawn name="Lillipup" overwrite="true" rate="0.01" min="1" max="2" biomes="brushland,prarie"/>
+	<Spawn name="Herdier" overwrite="true" rate="0.01" min="1" max="2" biomes="chaparral"/>
+	<Spawn name="Stoutland" overwrite="true" rate="0.01" min="1" max="2" biomes="meadow"/>
+	<Spawn name="Purrloin" overwrite="true" rate="0.01" min="1" max="2" biomes="jungle"/>
+	<Spawn name="Liepard" overwrite="true" rate="0.01" min="1" max="2" biomes="jungle"/>
+	<Spawn name="Pansage" overwrite="true" rate="0.01" min="1" max="2" biomes="rainforest"/>
+	<Spawn name="Simisage" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Pansear" overwrite="true" rate="0.01" min="1" max="2" biomes="rainforest"/>
+	<Spawn name="Simisear" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Panpour" overwrite="true" rate="0.01" min="1" max="2" biomes="rainforest"/>
+	<Spawn name="Simipour" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Munna" overwrite="true" rate="0.01" min="1" max="2" biomes="lavender_fields"/>
+	<Spawn name="Musharna" overwrite="true" rate="0.01" min="1" max="2" biomes="lavender_fields"/>
+	<Spawn name="Pidove" overwrite="true" rate="0.01" min="1" max="2" biomes="birch_forest,birch_forest_hills"/>
+	<Spawn name="Tranquill" overwrite="true" rate="0.01" min="1" max="2" biomes="birch_froest"/>
+	<Spawn name="Unfezant" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Blitzle" overwrite="true" rate="0.01" min="1" max="2" biomes="outback"/>
+	<Spawn name="Zebstrika" overwrite="true" rate="0.01" min="1" max="2" biomes="outback"/>
+	<Spawn name="Roggenrola" overwrite="true" rate="0.01" min="1" max="2" biomes="extreme_hills,extreme_hills_with_trees"/>
+	<Spawn name="Boldore" overwrite="true" rate="0.01" min="1" max="2" biomes="extreme_hills"/>
+	<Spawn name="Gigalith" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Woobat" overwrite="true" rate="0.01" min="1" max="2" biomes="roofed_forest"/>
+	<Spawn name="Swoobat" overwrite="true" rate="0.01" min="1" max="2" biomes="roofed_forest"/>
+	<Spawn name="Drilbur" overwrite="true" rate="0.01" min="1" max="2" biomes="roofed_forest"/>
+	<Spawn name="Excadrill" overwrite="true" rate="0.01" min="1" max="2" biomes="roofed_forest"/>
+	<Spawn name="Audino" overwrite="true" rate="0.01" min="1" max="2" biomes="roofed_forest"/>
+	<Spawn name="Audino Mega" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Timburr" overwrite="true" rate="0.01" min="1" max="2" biomes="roofed_forest"/>
+	<Spawn name="Gurdurr" overwrite="true" rate="0.01" min="1" max="2" biomes="roofed_forest"/>
+	<Spawn name="Conkeldurr" overwrite="true" rate="0.01" min="1" max="2" biomes="roofed_forest"/>
+	<Spawn name="Tympole" overwrite="true" rate="0.01" min="1" max="2" biomes="land_of_lakes,mangrove"/>
+	<Spawn name="Palpitoad" overwrite="true" rate="0.01" min="1" max="2" biomes="land_of_lakes,mangrove"/>
+	<Spawn name="Seismitoad" overwrite="true" rate="0.01" min="1" max="2" biomes="land_of_lakes"/>
+	<Spawn name="Throh" overwrite="true" rate="0.01" min="1" max="2" biomes="taiga_hills"/>
+	<Spawn name="Sawk" overwrite="true" rate="0.01" min="1" max="2" biomes="taiga_hills"/>
+	<Spawn name="Sewaddle" overwrite="true" rate="0.01" min="1" max="2" biomes="roofed_forest,grove"/>
+	<Spawn name="Swadloon" overwrite="true" rate="0.01" min="1" max="2" biomes="roofed_forest,grove"/>
+	<Spawn name="Leavanny" overwrite="true" rate="0.01" min="1" max="2" biomes="roofed_forest,grove"/>
+	<Spawn name="Venipede" overwrite="true" rate="0.01" min="1" max="2" biomes="redwood_taiga"/>
+	<Spawn name="Whirlipede" overwrite="true" rate="0.01" min="1" max="2" biomes="redwood_taiga"/>
+	<Spawn name="Scolipede" overwrite="true" rate="0.01" min="1" max="2" biomes="redwood_taiga"/>
+	<Spawn name="Cottonee" overwrite="true" rate="0.01" min="1" max="2" biomes="maple_woods,birch_forest"/>
+	<Spawn name="Whimsicott" overwrite="true" rate="0.01" min="1" max="2" biomes="maple_woods"/>
+	<Spawn name="Petilil" overwrite="true" rate="0.01" min="1" max="2" biomes="temperate_rainforest,flower_field"/>
+	<Spawn name="Lilligant" overwrite="true" rate="0.01" min="1" max="2" biomes="temperate_rainforest"/>
+	<Spawn name="Basculin" overwrite="true" rate="0.01" min="1" max="2" biomes="land_of_lakes,bayou"/>
+	<Spawn name="Sandile" overwrite="true" rate="0.01" min="1" max="2" biomes="desert"/>
+	<Spawn name="Krokorok" overwrite="true" rate="0.01" min="1" max="2" biomes="desert"/>
+	<Spawn name="Krookodile" overwrite="true" rate="0.01" min="1" max="2" biomes="lush_desert"/>
+	<Spawn name="Darumaka" overwrite="true" rate="0.01" min="1" max="2" biomes="savanna,desert"/>
+	<Spawn name="Darmanitan" overwrite="true" rate="0.01" min="1" max="2" biomes="savanna"/>
+	<Spawn name="Darmanitan Zen" overwrite="true" rate="0.01" min="1" max="2" biomes="savanna"/>
+	<Spawn name="Maractus" overwrite="true" rate="0.01" min="1" max="2" biomes="desert_hills,desert"/>
+	<Spawn name="Dwebble" overwrite="true" rate="0.01" min="1" max="2" biomes="gravel_beach"/>
+	<Spawn name="Crustle" overwrite="true" rate="0.01" min="1" max="2" biomes="gravel_beach"/>
+	<Spawn name="Scraggy" overwrite="true" rate="0.01" min="1" max="2" biomes="desert_hills"/>
+	<Spawn name="Scrafty" overwrite="true" rate="0.01" min="1" max="2" biomes="Desert_hills"/>
+	<Spawn name="Sigilyph" overwrite="true" rate="0.01" min="1" max="2" biomes="desert"/>
+	<Spawn name="Yamask" overwrite="true" rate="0.01" min="1" max="2" biomes="desert"/>
+	<Spawn name="Cofagrigus" overwrite="true" rate="0.01" min="1" max="2" biomes="desert_hills"/>
+	<Spawn name="Tirtouga" overwrite="true" rate="0.01" min="1" max="2" biomes="oasis,ocean"/>
+	<Spawn name="Carracosta" overwrite="true" rate="0.01" min="1" max="2" biomes="oasis,ocean"/>
+	<Spawn name="Archen" overwrite="true" rate="0.01" min="1" max="2" biomes="savanna"/>
+	<Spawn name="Archeops" overwrite="true" rate="0.01" min="1" max="2" biomes="savanna"/>
+	<Spawn name="Trubbish" overwrite="true" rate="0.01" min="1" max="2" biomes="wasteland"/>
+	<Spawn name="Garbodor" overwrite="true" rate="0.01" min="1" max="2" biomes="wasteland"/>
+	<Spawn name="Zorua" overwrite="true" rate="0.01" min="1" max="2" biomes="ominous_woods"/>
+	<Spawn name="Zoroark" overwrite="true" rate="0.01" min="1" max="2" biomes="ominous_woods"/>
+	<Spawn name="Minccino" overwrite="true" rate="0.01" min="1" max="2" biomes="mystic_grove"/>
+	<Spawn name="Cinccino" overwrite="true" rate="0.01" min="1" max="2" biomes="mystic_grove"/>
+	<Spawn name="Gothita" overwrite="true" rate="0.01" min="1" max="2" biomes="ominous_woods"/>
+	<Spawn name="Gothorita" overwrite="true" rate="0.01" min="1" max="2" biomes="ominous_woods"/>
+	<Spawn name="Gothitelle" overwrite="true" rate="0.01" min="1" max="2" biomes="ominous_woods"/>
+	<Spawn name="Solosis" overwrite="true" rate="0.01" min="1" max="2" biomes="all"/>
+	<Spawn name="Duosion" overwrite="true" rate="0.01" min="1" max="2" biomes="mystic_grove"/>
+	<Spawn name="Reuniclus" overwrite="true" rate="0.01" min="1" max="2" biomes="ominous_wood"/>
+	<Spawn name="Ducklett" overwrite="true" rate="0.01" min="1" max="2" biomes="swampland,land_of_lakes"/>
+	<Spawn name="Swanna" overwrite="true" rate="0.01" min="1" max="2" biomes="swampland,land_of_lakes"/>
+	<Spawn name="Vanillite" overwrite="true" rate="0.01" min="1" max="2" biomes="snowy_forest,snowy_coniferous_forest,alps,mountains,arctic"/>
+	<Spawn name="Vanillish" overwrite="true" rate="0.01" min="1" max="2" biomes="snowy_forest"/>
+	<Spawn name="Vanilluxe" overwrite="true" rate="0.01" min="1" max="2" biomes="snowy_forest"/>
+	<Spawn name="Deerling" overwrite="true" rate="0.01" min="1" max="2" biomes="maple_woods,meadow"/>
+	<Spawn name="Sawsbuck" overwrite="true" rate="0.01" min="1" max="2" biomes="maple_woods"/>
+	<Spawn name="Emolga" overwrite="true" rate="0.01" min="1" max="2" biomes="maple_woods"/>
+	<Spawn name="Karrablast" overwrite="true" rate="0.01" min="1" max="2" biomes="taiga_hills,maple_woods"/>
+	<Spawn name="Escavalier" overwrite="true" rate="0.01" min="1" max="2" biomes="maple_woods"/>
+	<Spawn name="Foongus" overwrite="true" rate="0.01" min="1" max="2" biomes="mushroom_island,fungi_forest"/>
+	<Spawn name="Amoonguss" overwrite="true" rate="0.01" min="1" max="2" biomes="mushroom_island,fungi_forest"/>
+	<Spawn name="Frillish" overwrite="true" rate="0.01" min="1" max="2" biomes="kelp_forest,ocean"/>
+	<Spawn name="Jellicent" overwrite="true" rate="0.01" min="1" max="2" biomes="kelp_forest"/>
+	<Spawn name="Alomomola" overwrite="true" rate="0.01" min="1" max="2" biomes="coral_reed"/>
+	<Spawn name="Joltik" overwrite="true" rate="0.01" min="1" max="2" biomes="birch_forest,dead_forest"/>
+	<Spawn name="Galvantula" overwrite="true" rate="0.01" min="1" max="2" biomes="birch_forest,dead_forest"/>
+	<Spawn name="Ferroseed" overwrite="true" rate="0.01" min="1" max="2" biomes="woodland"/>
+	<Spawn name="Ferrothorn" overwrite="true" rate="0.01" min="1" max="2" biomes="woodland"/>
+	<Spawn name="Klink" overwrite="true" rate="0.01" min="1" max="2" biomes="mountain_foothills"/>
+	<Spawn name="Klang" overwrite="true" rate="0.01" min="1" max="2" biomes="mountain_foothills"/>
+	<Spawn name="Klinklang" overwrite="true" rate="0.01" min="1" max="2" biomes="mountain_foothills"/>
+	<Spawn name="Tynamo" overwrite="true" rate="0.01" min="1" max="2" type="cave" biomes="mountain,mountain_foothills"/>
+	<Spawn name="Eelektrik" overwrite="true" rate="0.01" min="1" max="2" biomes="mountain"/>
+	<Spawn name="Eelektross" overwrite="true" rate="0.01" min="1" max="2" biomes="mountain"/>
+	<Spawn name="Elgyem" overwrite="true" rate="0.01" min="1" max="2" biomes="mountain"/>
+	<Spawn name="Beheeyem" overwrite="true" rate="0.01" min="1" max="2" biomes="bamboo_forest,mountain_foothills"/>
+	<Spawn name="Litwick" overwrite="true" rate="0.01" min="1" max="2" biomes="fen,mystic_grove"/>
+	<Spawn name="Lampent" overwrite="true" rate="0.01" min="1" max="2" biomes="mystic_grove"/>
+	<Spawn name="Chandelure" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Axew" overwrite="true" rate="0.01" min="1" max="2" biomes="bamboo_forest,highland"/>
+	<Spawn name="Fraxure" overwrite="true" rate="0.01" min="1" max="2" biomes="highland"/>
+	<Spawn name="Haxorus" overwrite="true" rate="0.01" min="1" max="2" biomes=",shield"/>
+	<Spawn name="Cubchoo" overwrite="true" rate="0.01" min="1" max="2" biomes="ice_flats,alps,snowy_forest,snowy_coniferous_forest,acrtic"/>
+	<Spawn name="Beartic" overwrite="true" rate="0.01" min="1" max="2" biomes="snowy_coniferous_forest"/>
+	<Spawn name="Cryogonal" overwrite="true" rate="0.01" min="1" max="2" biomes="ice_flats,alps,snowy_forest,snowy_coniferous_forest,acrtic"/>
+	<Spawn name="Shelmet" overwrite="true" rate="0.01" min="1" max="2" biomes="oasis,gravel_beach,white_beach"/>
+	<Spawn name="Accelgor" overwrite="true" rate="0.01" min="1" max="2" biomes="oasis,gravel_beach,quagmire"/>
+	<Spawn name="Stunfisk" overwrite="true" rate="0.01" min="1" max="2" biomes="overgrown_cliffs,outback"/>
+	<Spawn name="Mienfoo" overwrite="true" rate="0.01" min="1" max="2" biomes="overgrown_cliffs,outback"/>
+	<Spawn name="Mienshao" overwrite="true" rate="0.01" min="1" max="2" biomes="mountain,overgrown_cliffs"/>
+	<Spawn name="Druddigon" overwrite="true" rate="0.01" min="1" max="2" type="cave" biomes="mountain,overgrown_cliffs"/>
+	<Spawn name="Golett" overwrite="true" rate="0.01" min="1" max="2" type="cave" biomes="mountain,overgrown_cliffs"/>
+	<Spawn name="Golurk" overwrite="true" rate="0.01" min="1" max="2" type="cave" biomes="mountain,overgrown_cliffs"/>
+	<Spawn name="Pawniard" overwrite="true" rate="0.01" min="1" max="2" biomes="visceral_heap"/>
+	<Spawn name="Bisharp" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Bouffalant" overwrite="true" rate="0.01" min="1" max="2" biomes="prarie,outback,highland,brushland"/>
+	<Spawn name="Rufflet" overwrite="true" rate="0.01" min="1" max="2" biomes="outback,prarie,seasonal_forest"/>
+	<Spawn name="Braviary" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Vullaby" overwrite="true" rate="0.01" min="1" max="2" biomes="seasonal_forest,grove"/>
+	<Spawn name="Mandibuzz" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Heatmor" overwrite="true" rate="0.01" min="1" max="2" biomes="outback,desert,lust_desert"/>
+	<Spawn name="Durant" overwrite="true" rate="0.01" min="1" max="2" biomes="bamboo_forest,rainforest,shield,woodland"/>
+	<Spawn name="Deino" overwrite="true" rate="0.01" min="1" max="2" biomes="shield,roofed_forest,forest"/>
+	<Spawn name="Zweilous" overwrite="true" rate="0.01" min="1" max="2" biomes="shield"/>
+	<Spawn name="Hydreigon" overwrite="true" rate="0.01" min="1" max="2" biomes="hell"/>
+	<Spawn name="Larvesta" overwrite="true" rate="0.01" min="1" max="2" biomes="outback,desert,oasis"/>
+	<Spawn name="Volcarona" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Cobalion" overwrite="true" rate="0.01" min="1" max="2" biomes="forest,roofed_forest"/>
+	<Spawn name="Terrakion" overwrite="true" rate="0.01" min="1" max="2" biomes="forest,roofed_forest"/>
+	<Spawn name="Virizion" overwrite="true" rate="0.01" min="1" max="2" biomes="forest,roofed_forest"/>
+	<Spawn name="Tornadus Incarnate" overwrite="true" rate="0.01" min="1" max="2" biomes="sky"/>
+	<Spawn name="Tornadus Therian" overwrite="true" rate="0.01" min="1" max="2" biomes="sky"/>
+	<Spawn name="Thundurus Incarnate" overwrite="true" rate="0.01" min="1" max="2" biomes="sky"/>
+	<Spawn name="Thundurus Therian" overwrite="true" rate="0.01" min="1" max="2" biomes="sky"/>
+	<Spawn name="Reshiram" overwrite="true" rate="0.01" min="1" max="2" biomes="sky"/>
+	<Spawn name="Zekrom" overwrite="true" rate="0.01" min="1" max="2" biomes="sky"/>
+	<Spawn name="Landorus Incarnate" overwrite="true" rate="0.01" min="1" max="2" biomes="sky"/>
+	<Spawn name="Landorus Theria" overwrite="true" rate="0.01" min="1" max="2" biomes="sky"/>
+	<Spawn name="Kyurem" overwrite="true" rate="0.01" min="1" max="2" biomes="sky"/>
+	<Spawn name="Kyurem Black" overwrite="true" rate="0.01" min="1" max="2" biomes="sky"/>
+	<Spawn name="Kyurem White" overwrite="true" rate="0.01" min="1" max="2" biomes="sky"/>
+	<Spawn name="Keldeo" overwrite="true" rate="0.01" min="1" max="2" type="beach" biomes=""/>
+	<Spawn name="Keldeo Resolute" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Meloetta Aria" overwrite="true" rate="0.01" min="1" max="2" biomes="sky"/>
+	<Spawn name="Meloetta Pirouette" overwrite="true" rate="0.01" min="1" max="2" biomes="sky"/>
+	<Spawn name="Genesect" overwrite="true" rate="0.01" min="1" max="2" biomes="sky"/>
+	<Spawn name="GenesectBDrive" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="GenesectCDrive" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="GenesectDDrive" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="GenesectSDrive" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Chespin" starter="true" overwrite="true" rate="0.01" min="1" max="2" biomes="origin_island"/>
+	<Spawn name="Quilladin" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Chesnaught" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Fennekin" starter="true" overwrite="true" rate="0.01" min="1" max="2" biomes="origin_island"/>
+	<Spawn name="Braixen" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Delphox" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Froakie" starter="true" overwrite="true" rate="0.01" min="1" max="2" biomes="origin_island"/>
+	<Spawn name="Frogadier" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Greninja" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Greninja Ash" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Bunnelby" overwrite="true" rate="0.01" min="1" max="2" biomes="savanna,chaparral"/>
+	<Spawn name="Diggersby" overwrite="true" rate="0.01" min="1" max="2" biomes="savanna"/>
+	<Spawn name="Fletchling" overwrite="true" rate="0.01" min="1" max="2" biomes="savanna,chaparral"/>
+	<Spawn name="Fletchinder" overwrite="true" rate="0.01" min="1" max="2" biomes="savanna"/>
+	<Spawn name="Talonflame" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Scatterbug" overwrite="true" rate="0.01" min="1" max="2" biomes="bamboo_forest,mesa,forest,roofed_forest"/>
+	<Spawn name="Spewpa" overwrite="true" rate="0.01" min="1" max="2" biomes="roofed_forest,forest"/>
+	<Spawn name="Vivillon" overwrite="true" rate="0.01" min="1" max="2" biomes="flower_island"/>
+	<Spawn name="Litleo" overwrite="true" rate="0.01" min="1" max="2" biomes="savanna,outback"/>
+	<Spawn name="Pyroar" overwrite="true" rate="0.01" min="1" max="2" biomes="savanna"/>
+	<Spawn name="Flabebe" overwrite="true" rate="0.01" min="1" max="2" biomes="flower_field"/>
+	<Spawn name="Floette" overwrite="true" rate="0.01" min="1" max="2" biomes="flower_island"/>
+	<Spawn name="Florges" overwrite="true" rate="0.01" min="1" max="2" biomes="lavender_fields"/>
+	<Spawn name="Skiddo" overwrite="true" rate="0.01" min="1" max="2" biomes="grassland,chaparral,eucalyptus_forest"/>
+	<Spawn name="Gogoat" overwrite="true" rate="0.01" min="1" max="2" biomes="mountain_foothills"/>
+	<Spawn name="Pancham" overwrite="true" rate="0.01" min="1" max="2" biomes="bamboo_forest"/>
+	<Spawn name="Pangoro" overwrite="true" rate="0.01" min="1" max="2" biomes="bamboo_forest"/>
+	<Spawn name="Furfrou" overwrite="true" rate="0.01" min="1" max="2" biomes="roofed_forest"/>
+	<Spawn name="Espurr" overwrite="true" rate="0.01" min="1" max="2" biomes="lavender_fields"/>
+	<Spawn name="Meowstic" overwrite="true" rate="0.01" min="1" max="2" biomes="shield"/>
+	<Spawn name="Honedge" overwrite="true" rate="0.01" min="1" max="2" biomes="shield,crag,mountain_foothills"/>
+	<Spawn name="Doublade" overwrite="true" rate="0.01" min="1" max="2" biomes="alps_foothills"/>
+	<Spawn name="Aegislash Blade" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Aegislash Shield" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Spritzee" overwrite="true" rate="0.01" min="1" max="2" biomes="flower_island,flower_fields"/>
+	<Spawn name="Aromatisse" overwrite="true" rate="0.01" min="1" max="2" biomes="lavender_fields"/>
+	<Spawn name="Swirlix" overwrite="true" rate="0.01" min="1" max="2" biomes="shield,mystic_grove"/>
+	<Spawn name="Slurpuff" overwrite="true" rate="0.01" min="1" max="2" biomes="mystic_grove"/>
+	<Spawn name="Inkay" overwrite="true" rate="0.01" min="1" max="2" biomes="roofed_forest,shield"/>
+	<Spawn name="Malamar" overwrite="true" rate="0.01" min="1" max="2" biomes="roofed_forest"/>
+	<Spawn name="Binacle" overwrite="true" rate="0.01" min="1" max="2" biomes="gravel_beach,tropical_island,white_beach"/>
+	<Spawn name="Barbaracle" overwrite="true" rate="0.01" min="1" max="2" biomes="white_beach"/>
+	<Spawn name="Skrelp" overwrite="true" rate="0.01" min="1" max="2" biomes="kelp_forest,coral_reef"/>
+	<Spawn name="Dragalge" overwrite="true" rate="0.01" min="1" max="2" biomes="kelp_forest"/>
+	<Spawn name="Clauncher" overwrite="true" rate="0.01" min="1" max="2" biomes="white_beach,coral_reef"/>
+	<Spawn name="Clawitzer" overwrite="true" rate="0.01" min="1" max="2" biomes="tropical_island"/>
+	<Spawn name="Helioptile" overwrite="true" rate="0.01" min="1" max="2" biomes="tropical_island"/>
+	<Spawn name="Heliolisk" overwrite="true" rate="0.01" min="1" max="2" biomes="shield"/>
+	<Spawn name="Tyrunt" overwrite="true" rate="0.01" min="1" max="2" biomes="steppe,mesa"/>
+	<Spawn name="Tyrantrum" overwrite="true" rate="0.01" min="1" max="2" biomes="mesa"/>
+	<Spawn name="Amaura" overwrite="true" rate="0.01" min="1" max="2" biomes="ice_flats,ice_mountain"/>
+	<Spawn name="Aurorus" overwrite="true" rate="0.01" min="1" max="2" biomes="ice_mountain"/>
+	<Spawn name="Sylveon" overwrite="true" rate="0.01" min="1" max="2" biomes="mystic_grove"/>
+	<Spawn name="Hawlucha" overwrite="true" rate="0.01" min="1" max="2" biomes="temperate_rainforest"/>
+	<Spawn name="Dedenne" overwrite="true" rate="0.01" min="1" max="2" biomes="shrubland"/>
+	<Spawn name="Carbink" overwrite="true" rate="0.01" min="1" max="2" biomes="shield"/>
+	<Spawn name="Goomy" overwrite="true" rate="0.01" min="1" max="2" biomes="eucalyptus_forest"/>
+	<Spawn name="Sliggoo" overwrite="true" rate="0.01" min="1" max="2" biomes="eucalyptus_forest"/>
+	<Spawn name="Goodra" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Klefki" overwrite="true" rate="0.01" min="1" max="2" biomes="woodland"/>
+	<Spawn name="Phantump" overwrite="true" rate="0.01" min="1" max="2" biomes="boreal_forest,seasonal_forest,land_of-lakes"/>
+	<Spawn name="Trevenant" overwrite="true" rate="0.01" min="1" max="2" biomes="orchard,ominous_woods"/>
+	<Spawn name="Pumpkaboo Average" overwrite="true" rate="0.01" min="1" max="2" biomes="roofed_forest,forest,ominous_woods"/>
+	<Spawn name="Pumpkaboo Large" overwrite="true" rate="0.01" min="1" max="2" biomes="roofed_forest,ominous_woods"/>
+	<Spawn name="Pumpkaboo Small" overwrite="true" rate="0.01" min="1" max="2" biomes="roofed_forest,ominous_woods"/>
+	<Spawn name="Pumpkaboo Super" overwrite="true" rate="0.01" min="1" max="2" biomes="roofed_forest,ominous_woods"/>
+	<Spawn name="Gourgeist Average" overwrite="true" rate="0.01" min="1" max="2" biomes="roofed_forest,ominous_woods"/>
+	<Spawn name="Gourgeist Large" overwrite="true" rate="0.01" min="1" max="2" biomes="roofed_forest,ominous_woods"/>
+	<Spawn name="Gourgeist Small" overwrite="true" rate="0.01" min="1" max="2" biomes="roofed_forest,ominous_woods"/>
+	<Spawn name="Gourgeist Super" overwrite="true" rate="0.01" min="1" max="2" biomes="roofed_forest,ominous_woods"/>
+	<Spawn name="Bergmite" overwrite="true" rate="0.01" min="1" max="2" biomes="glacier,tundra,arctic,ice_mountain"/>
+	<Spawn name="Avalugg" overwrite="true" rate="0.01" min="1" max="2" biomes="tundra,ice_mountain"/>
+	<Spawn name="Noibat" overwrite="true" rate="0.01" min="1" max="2" biomes="temperate_rainforest,tropical_rainforest"/>
+	<Spawn name="Noivern" overwrite="true" rate="0.01" min="1" max="2" biomes="temperate_rainforest"/>
+	<Spawn name="Xerneas" overwrite="true" rate="0.01" min="1" max="2" biomes="mesa,roofed_forest,forest"/>
+	<Spawn name="Yveltal" overwrite="true" rate="0.01" min="1" max="2" biomes="sky"/>
+	<Spawn name="Zygarde" overwrite="true" rate="0.01" min="1" max="2" biomes="hell"/>
+	<Spawn name="Diancie" overwrite="true" rate="0.01" min="1" max="2" biomes="sky"/>
+	<Spawn name="Diancie Mega" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Hoopa Confined" overwrite="true" rate="0.01" min="1" max="2" biomes="sky"/>
+	<Spawn name="Hoopa Unbound" overwrite="true" rate="0.01" min="1" max="2" biomes="sky"/>
+	<Spawn name="Volcanion" overwrite="true" rate="0.01" min="1" max="2" biomes="hell"/>
+	<Spawn name="Rowlet" starter="true" overwrite="true" rate="0.01" min="1" max="2" biomes="origin_island"/>
+	<Spawn name="Dartrix" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Decidueye" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Litten" starter="true" overwrite="true" rate="0.01" min="1" max="2" biomes="origin_island"/>
+	<Spawn name="Torracat" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Incineroar" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Popplio" starter="true" overwrite="true" rate="0.01" min="1" max="2" biomes="origin_island"/>
+	<Spawn name="Brionne" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Primarina" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Pikipek" overwrite="true" rate="0.01" min="1" max="2" biomes="land_of_lakes"/>
+	<Spawn name="Trumbeak" overwrite="true" rate="0.01" min="1" max="2" biomes="land_of_lakes"/>
+	<Spawn name="Toucannon" overwrite="true" rate="0.01" min="1" max="2" biomes="tropical_island"/>
+	<Spawn name="Yungoos" overwrite="true" rate="0.01" min="1" max="2" biomes="land_of_lakes,maple_woods,mangrove"/>
+	<Spawn name="Gumshoos" overwrite="true" rate="0.01" min="1" max="2" biomes="bog"/>
+	<Spawn name="Grubbin" overwrite="true" rate="0.01" min="1" max="2" biomes="land_of_lakes,maple_woods,orchard"/>
+	<Spawn name="Charjabug" overwrite="true" rate="0.01" min="1" max="2" biomes="land_of_lakes"/>
+	<Spawn name="Vikavolt" overwrite="true" rate="0.01" min="1" max="2" biomes="land_of_lakes"/>
+	<Spawn name="Crabrawler" overwrite="true" rate="0.01" min="1" max="2" biomes="land_of_lakes,gravel_beach"/>
+	<Spawn name="Crabominable" overwrite="true" rate="0.01" min="1" max="2" biomes="ice_flats"/>
+	<Spawn name="Oricorio" overwrite="true" rate="0.01" min="1" max="2" biomes="meadow"/>
+	<Spawn name="Cutiefly" overwrite="true" rate="0.01" min="1" max="2" biomes="flower_island,flower_field"/>
+	<Spawn name="Ribombee" overwrite="true" rate="0.01" min="1" max="2" biomes="flower_island"/>
+	<Spawn name="Rockruff" overwrite="true" rate="0.01" min="1" max="2" biomes="tundra,savanna,land_of_lakes"/>
+	<Spawn name="Lycanroc" overwrite="true" rate="0.01" min="1" max="2" biomes="tundra"/>
+	<Spawn name="Lycanroc Midnight" overwrite="true" rate="0.01" min="1" max="2" biomes="tundra"/>
+	<Spawn name="Wishiwashi" overwrite="true" rate="0.01" min="1" max="2" biomes="ocean"/>
+	<Spawn name="Mareanie" overwrite="true" rate="0.01" min="1" max="2" biomes="coral_reef,white_beach"/>
+	<Spawn name="Toxapex" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Mudbray" overwrite="true" rate="0.01" min="1" max="2" biomes="savanna,taiga,plains"/>
+	<Spawn name="Mudsdale" overwrite="true" rate="0.01" min="1" max="2" biomes="plains"/>
+	<Spawn name="Dewpider" overwrite="true" rate="0.01" min="1" max="2" biomes="land_of_lakes,wetland,bayou,marsh"/>
+	<Spawn name="Araquanid" overwrite="true" rate="0.01" min="1" max="2" biomes="bayou"/>
+	<Spawn name="Fomantis" overwrite="true" rate="0.01" min="1" max="2" biomes="temperate_rainforest,rainforest,tropical_rainforest"/>
+	<Spawn name="Lurantis" overwrite="true" rate="0.01" min="1" max="2" biomes="tropical_island"/>
+	<Spawn name="Morelull" overwrite="true" rate="0.01" min="1" max="2" biomes="land_of_lakes,fungi_forest,mushroom_island"/>
+	<Spawn name="Shiinotic" overwrite="true" rate="0.01" min="1" max="2" biomes="fungi_forest"/>
+	<Spawn name="Salandit" overwrite="true" rate="0.01" min="1" max="2" biomes="desert"/>
+	<Spawn name="Salazzle" overwrite="true" rate="0.01" min="1" max="2" biomes="desert_hills"/>
+	<Spawn name="Stufful" overwrite="true" rate="0.01" min="1" max="2" biomes="moor,shield,land_of_lakes"/>
+	<Spawn name="Bewear" overwrite="true" rate="0.01" min="1" max="2" biomes="boreal_forest"/>
+	<Spawn name="Bounsweet" overwrite="true" rate="0.01" min="1" max="2" biomes="jungle"/>
+	<Spawn name="Steenee" overwrite="true" rate="0.01" min="1" max="2" biomes="jungle"/>
+	<Spawn name="Tsareena" overwrite="true" rate="0.01" min="1" max="2" biomes="redwood_forest"/>
+	<Spawn name="Comfey" overwrite="true" rate="0.01" min="1" max="2" biomes="jungle,rainforest,temperate_rainforest"/>
+	<Spawn name="Oranguru" overwrite="true" rate="0.01" min="1" max="2" biomes="jungle,rainforest,temperate_rainforest"/>
+	<Spawn name="Passimian" overwrite="true" rate="0.01" min="1" max="2" biomes="jungle,rainforest,temperate_rainforest"/>
+	<Spawn name="Wimpod" overwrite="true" rate="0.01" min="1" max="2" biomes="land_of_lakes,quagmire,gravel_beach"/>
+	<Spawn name="Golisopod" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Sandygast" overwrite="true" rate="0.01" min="1" max="2" biomes="white_beach,gravel_beach,origin_island"/>
+	<Spawn name="Palossand" overwrite="true" rate="0.01" min="1" max="2" biomes="white_beach"/>
+	<Spawn name="Pyukumuku" overwrite="true" rate="0.01" min="1" max="2" biomes="ocean,kelp_forest"/>
+	<Spawn name="Type: Null" overwrite="true" rate="0.0001" min="1" max="2" biomes="sky"/>
+	<Spawn name="Silvally" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Minior" overwrite="true" rate="0.001" min="1" max="2" types="meteor" biomes=""/>
+	<Spawn name="Minior Core" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Komala" overwrite="true" rate="0.01" min="1" max="2" biomes="outback"/>
+	<Spawn name="Turtonator" overwrite="true" rate="0.01" min="1" max="2" biomes="hell"/>
+	<Spawn name="Togedemaru" overwrite="true" rate="0.01" min="1" max="2" biomes="outback,savanna,prarie"/>
+	<Spawn name="Mimikyu" overwrite="true" rate="0.01" min="1" max="2" biomes="origin_island"/>
+	<Spawn name="Bruxish" overwrite="true" rate="0.01" min="1" max="2" water="true" type="wet" biomes="coral_reef,ocean"/>
+	<Spawn name="Drampa" overwrite="true" rate="0.01" min="1" max="2" biomes="sky"/>
+	<Spawn name="Dhelmise" overwrite="true" rate="0.01" min="1" max="2" biomes="temperate_rainforest"/>
+	<Spawn name="Jangmo-o" overwrite="true" rate="0.01" min="1" max="2" biomes="tundra,steppe"/>
+	<Spawn name="Hakamo-o" overwrite="true" rate="0.01" min="1" max="2" biomes="steppe"/>
+	<Spawn name="Kommo-o" overwrite="true" rate="0.01" min="1" max="2" biomes=""/>
+	<Spawn name="Tapu Koko" overwrite="true" rate="0.01" min="1" max="2" type="ruins" biomes=""/>
+	<Spawn name="Tapu Lele" overwrite="true" rate="0.01" min="1" max="2" type="ruins" biomes=""/>
+	<Spawn name="Tapu Bulu" overwrite="true" rate="0.01" min="1" max="2" type="ruins" biomes=""/>
+	<Spawn name="Tapu Fini" overwrite="true" rate="0.01" min="1" max="2" type="ruins" biomes=""/>
+	<Spawn name="Cosmog" overwrite="true" rate="0.0001" min="1" max="2" biomes="sky"/>
+	<Spawn name="Cosmoem" overwrite="true" rate="0.0001" min="1" max="2" biomes=""/>
+	<Spawn name="Solgaleo" overwrite="true" rate="0.0001" min="1" max="2" biomes=""/>
+	<Spawn name="Lunala" overwrite="true" rate="0.0001" min="1" max="2" biomes=""/>
+	<Spawn name="Nihilego" overwrite="true" rate="0.0001" min="1" max="2" type="cave" biomes="ice_mountains,mountain,mountain_foothills"/>
+	<Spawn name="Buzzwole" overwrite="true" rate="0.0001" min="1" max="2" biomes="meadow"/>
+	<Spawn name="Pheromosa" overwrite="true" rate="0.0001" min="1" max="2" type="cave" biomes="white_beach,roofed_forest,mountain"/>
+	<Spawn name="Xurkitree" overwrite="true" rate="0.0001" min="1" max="2" biomes="tropical_rainforest,ominous_woods,mystic_grove"/>
+	<Spawn name="Celesteela" overwrite="true" rate="0.0001" min="1" max="2" biomes="oasis,lush_desert"/>
+	<Spawn name="Kartana" overwrite="true" rate="0.0001" min="1" max="2" biomes="undergarden"/>
+	<Spawn name="Guzzlord" overwrite="true" rate="0.0001" min="1" max="2" biomes="hell"/>
+	<Spawn name="Necrozma" overwrite="true" rate="0.0001" min="1" max="2" biomes="hell"/>
+	<Spawn name="Magearna" overwrite="true" rate="0.0001" min="1" max="2" biomes="sky"/>
+	<Spawn name="Marshadow" overwrite="true" rate="0.0001" min="1" max="2" biomes="corrupt_sands"/>
+</Spawns>
